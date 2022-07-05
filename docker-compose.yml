@@ -1,0 +1,83 @@
+version: "3"
+
+services:
+  db:
+    image: mysql
+    container_name: mysql_57
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    restart: always
+    ports:
+      - "3307:3306"
+  metabase:
+    image: metabase/metabase
+    container_name: metabase
+    ports: 
+      - "3000:3000"
+    volumes:
+      - data:/metabase
+  nifi:
+    image: apache/nifi:latest
+    container_name: nifi
+    ports:
+      - "8443:8443"
+    cpus: 2
+    mem_limit: 2G
+    mem_reservation: 2G
+    environment:
+      - SINGLE_USER_CREDENTIALS_USERNAME=${SINGLE_USER_CREDENTIALS_USERNAME}
+      - SINGLE_USER_CREDENTIALS_PASSWORD=${SINGLE_USER_CREDENTIALS_PASSWORD}
+      - NIFI_SENSITIVE_PROPS_KEY={NIFI_SENSITIVE_PROPS_KEY}
+    volumes:
+      - nifi_content_repository:/opt/nifi/nifi-current/content_repository
+      - nifi_database_repository:/opt/nifi/nifi-current/database_repository
+      - nifi_flowfile_repository:/opt/nifi/nifi-current/flowfile_repository
+      - nifi_provenance_repository:/opt/nifi/nifi-current/provenance_repository
+      - nifi_state:/opt/nifi/nifi-current/state
+      - nifi_logs:/opt/nifi/nifi-current/logs
+      - nifi_data:/opt/nifi/nifi-current/data
+      - nifi_conf:/opt/nifi/nifi-current/conf
+      - type: bind
+        source: ./drivers
+        target: /opt/nifi/nifi-current/drivers
+    networks:
+      - rede_projeto
+
+  nifi-registry:
+    image: apache/nifi-registry:latest
+    container_name: nifi-registry
+    ports:
+      - "18080:18080"
+    cpus: 1
+    mem_limit: 1G
+    mem_reservation: 1G
+    networks:
+      - rede_projeto 
+
+
+volumes:
+  nifi_content_repository:
+    driver: local
+  nifi_database_repository:
+    driver: local
+  nifi_flowfile_repository:
+    driver: local
+  nifi_provenance_repository:
+    driver: local
+  nifi_conf:
+    driver: local
+  nifi_state:
+    driver: local
+  nifi_logs:
+    driver: local
+  nifi_data:
+    driver: local
+  nifi_drivers:
+    driver: local
+  data:
+    driver: local
+
+
+networks:
+  rede_projeto:
+    external: true
