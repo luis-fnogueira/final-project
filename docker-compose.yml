@@ -1,16 +1,16 @@
 version: "3"
 
 services:
-  db:
-    image: mysql
-    container_name: mysql_57
+  database:
+    image: postgres:latest
+    container_name: postgres
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     restart: always
     ports:
-      - "3307:3306"
+      - "5433:5432"
     volumes:
-      - mysql_volume:/var/lib/mysql
+      - postgres_volume:/var/lib/postgresql/data
   metabase:
     image: metabase/metabase
     container_name: metabase
@@ -28,5 +28,5 @@ networks:
 volumes:
     data:
       driver: local
-    mysql_volume:
+    postgres_volume:
       driver: local
