@@ -1,12 +1,12 @@
-from gettext import bind_textdomain_codeset
+from pendulum import yesterday
 import requests
 import ast
-
+from datetime import date, timedelta
 
 class Bitcoin():
 
     # This function gets data from API 
-    def response_get(self, yr: int, month: int, day: int) -> dict:
+    def response_get(self, yr: int, month: int, day: int) -> str:
 
         response_API = requests.get(f'https://www.mercadobitcoin.net/api/BTC/day-summary/{yr}/{month}/{day}')
         
@@ -16,7 +16,7 @@ class Bitcoin():
         
 
     # This function extracts the values from JSON
-    def to_tuple(self, data):
+    def to_tuple(self, data: str) -> tuple:
 
         # This method transforms the text into a built-in dictionary
         data_form = ast.literal_eval(data)
@@ -29,4 +29,7 @@ class Bitcoin():
 
 
 if __name__ == '__main__':
-    pass
+    today = date.today()
+    yesterday = today - timedelta(days = 1)
+    print(today)
+    print(yesterday.day)

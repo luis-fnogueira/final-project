@@ -1,4 +1,5 @@
 import psycopg2
+from soupsieve import select
 from tabulate import tabulate
 
 
@@ -33,6 +34,7 @@ class Postgres_exec():
         self.conn.commit()
 
 
+    # This function does a SELECT ALL FROM table in the database
     def select_all(self):
 
         self.cur.execute(""" SELECT * FROM projeto.bitcoin_history """)
@@ -46,3 +48,9 @@ class Postgres_exec():
                                         "quantity",
                                         "amount",
                                         "avg_price"], tablefmt='psql'))
+
+
+if __name__ == '__main__':
+    db = Postgres_exec()
+    select = db.select_all()
+    print(type(select))

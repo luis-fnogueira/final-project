@@ -6,7 +6,7 @@ from get_bitcoin import Bitcoin
 btc = Bitcoin()
 
 # Setting date to get from the API
-response = btc.response_get(yr=2014, month=5, day=1)
+response = btc.response_get(yr=2015, month=9, day=11)
 
 # Transforming the data receveid from the API to a tuple
 normal_tuple = btc.to_tuple(response)
