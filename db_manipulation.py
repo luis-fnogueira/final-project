@@ -1,35 +1,13 @@
 from cmath import e
 import psycopg2
+from tabulate import tabulate
 
 
-class Postgres_exec:
+class Postgres_exec():
 
-    @classmethod
-    def db_conn(cls):
-        
-        host = 'localhost'
-        port = '5433'
-        db = 'projet-pos'
-        password = '123456'
-        user='postgres'
-
-        try:       
-            conn = psycopg2.connect(
-                database=db,
-                user=user,
-                password=password,
-                host=host,
-                port = port
-            )
-
-            print('Connection established!')
-
-        except e:
-            print(f'Connection error: {e}')       
-
-
-    def cursor(self):
-        self.db_conn.cursor()
+    def __init__(self, db="projeto-pos", user="postgres", host="localhost", password="123456", port="5433"):
+        self.conn = psycopg2.connect(database=db, host=host, port=port, password=password, user=user)
+        self.cur = self.conn.cursor()
 
     
     def insert_into(self, values):
@@ -49,7 +27,20 @@ class Postgres_exec:
                                 (%s ,%s ,%s ,%s ,%s ,%s ,%s ,%s ,%s)"""
 
 
-        self.cursor.execute(postgres_insert_query, values)
+        self.cur.execute(postgres_insert_query, values)
+        self.conn.commit()
 
 
+    def select_all(self):
 
+        self.cur.execute(""" SELECT * FROM projeto.bitcoin_history """)
+        result = self.cur.fetchall()
+        print(tabulate(result, headers=["date_summary",
+                                "opening",
+                                "closing",
+                                "lowest",
+                                "highest", 
+                                "volume",
+                                "quantity", 
+                                "amount",
+                                "avg_price"], tablefmt='psql'))

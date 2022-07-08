@@ -21,13 +21,3 @@ class Bitcoin():
         data_json = json.loads(data)
 
         return data_json
-
-teste = Bitcoin.response_get(2021, 6, 21)
-print(teste)
-
-teste2 = Bitcoin.to_json(teste)
-print('json ===========' )
-print(teste2)
-
-
-
