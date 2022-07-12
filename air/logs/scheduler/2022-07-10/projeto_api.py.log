@@ -1,0 +1,344 @@
+[2022-07-10 23:53:20,174] {processor.py:153} INFO - Started process (PID=74) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:53:20,175] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:53:20,177] {logging_mixin.py:115} INFO - [2022-07-10 23:53:20,177] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:53:20,480] {logging_mixin.py:115} INFO - [2022-07-10 23:53:20,477] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:53:20,481] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:53:20,697] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.531 seconds
+[2022-07-10 23:53:51,867] {processor.py:153} INFO - Started process (PID=93) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:53:51,888] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:53:51,889] {logging_mixin.py:115} INFO - [2022-07-10 23:53:51,889] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:53:56,056] {logging_mixin.py:115} INFO - [2022-07-10 23:53:56,055] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:53:56,260] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:53:57,109] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 5.163 seconds
+[2022-07-10 23:54:27,629] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:54:27,665] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:54:27,823] {logging_mixin.py:115} INFO - [2022-07-10 23:54:27,823] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:54:29,697] {logging_mixin.py:115} INFO - [2022-07-10 23:54:29,662] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:54:29,739] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:54:30,656] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 3.030 seconds
+[2022-07-10 23:55:01,052] {processor.py:153} INFO - Started process (PID=132) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:01,074] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:55:01,075] {logging_mixin.py:115} INFO - [2022-07-10 23:55:01,075] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:01,459] {logging_mixin.py:115} INFO - [2022-07-10 23:55:01,458] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:55:01,459] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:01,762] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.719 seconds
+[2022-07-10 23:55:31,915] {processor.py:153} INFO - Started process (PID=160) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:31,915] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:55:31,916] {logging_mixin.py:115} INFO - [2022-07-10 23:55:31,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:31,946] {logging_mixin.py:115} INFO - [2022-07-10 23:55:31,945] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:55:31,946] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:32,051] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.140 seconds
+[2022-07-10 23:55:35,953] {processor.py:153} INFO - Started process (PID=161) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:35,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:55:35,980] {logging_mixin.py:115} INFO - [2022-07-10 23:55:35,980] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:36,056] {logging_mixin.py:115} INFO - [2022-07-10 23:55:36,054] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from projetoget_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'projetoget_bitcoin'
+[2022-07-10 23:55:36,057] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:36,168] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.225 seconds
+[2022-07-10 23:55:41,212] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:41,213] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:55:41,214] {logging_mixin.py:115} INFO - [2022-07-10 23:55:41,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:41,217] {logging_mixin.py:115} INFO - [2022-07-10 23:55:41,216] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4
+    from projeto-final-pos.get_bitcoin import Bitcoin
+                ^
+SyntaxError: invalid syntax
+[2022-07-10 23:55:41,218] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:41,491] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.284 seconds
+[2022-07-10 23:55:53,294] {processor.py:153} INFO - Started process (PID=182) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:53,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:55:53,299] {logging_mixin.py:115} INFO - [2022-07-10 23:55:53,299] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:53,322] {logging_mixin.py:115} INFO - [2022-07-10 23:55:53,321] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:55:53,322] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:55:53,469] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.179 seconds
+[2022-07-10 23:56:23,646] {processor.py:153} INFO - Started process (PID=199) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:56:23,663] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:56:23,663] {logging_mixin.py:115} INFO - [2022-07-10 23:56:23,663] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:56:24,039] {logging_mixin.py:115} INFO - [2022-07-10 23:56:24,037] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:56:24,040] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:56:24,246] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.606 seconds
+[2022-07-10 23:56:54,392] {processor.py:153} INFO - Started process (PID=219) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:56:54,432] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:56:54,434] {logging_mixin.py:115} INFO - [2022-07-10 23:56:54,434] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:56:54,453] {logging_mixin.py:115} INFO - [2022-07-10 23:56:54,450] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 4, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:56:54,454] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:56:54,541] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.158 seconds
+[2022-07-10 23:57:15,405] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:15,460] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:15,461] {logging_mixin.py:115} INFO - [2022-07-10 23:57:15,461] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:15,474] {logging_mixin.py:115} INFO - [2022-07-10 23:57:15,473] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 5, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:57:15,475] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:15,563] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.163 seconds
+[2022-07-10 23:57:21,697] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:21,697] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:21,698] {logging_mixin.py:115} INFO - [2022-07-10 23:57:21,697] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:21,742] {logging_mixin.py:115} INFO - [2022-07-10 23:57:21,704] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 7, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:57:21,743] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:21,893] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.200 seconds
+[2022-07-10 23:57:26,606] {processor.py:153} INFO - Started process (PID=247) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:26,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:26,607] {logging_mixin.py:115} INFO - [2022-07-10 23:57:26,607] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:26,635] {logging_mixin.py:115} INFO - [2022-07-10 23:57:26,634] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 6, in <module>
+    sys.path.append()
+TypeError: append() takes exactly one argument (0 given)
+[2022-07-10 23:57:26,635] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:26,721] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.120 seconds
+[2022-07-10 23:57:29,770] {processor.py:153} INFO - Started process (PID=248) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:29,816] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:29,817] {logging_mixin.py:115} INFO - [2022-07-10 23:57:29,817] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:29,831] {logging_mixin.py:115} INFO - [2022-07-10 23:57:29,830] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 7, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:57:29,832] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:29,921] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.155 seconds
+[2022-07-10 23:57:32,798] {processor.py:153} INFO - Started process (PID=249) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:32,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:32,799] {logging_mixin.py:115} INFO - [2022-07-10 23:57:32,799] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:32,804] {logging_mixin.py:115} INFO - [2022-07-10 23:57:32,800] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 6
+    sys.path.append(os.path.)
+                            ^
+SyntaxError: invalid syntax
+[2022-07-10 23:57:32,805] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:32,854] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.060 seconds
+[2022-07-10 23:57:35,863] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:35,864] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:35,865] {logging_mixin.py:115} INFO - [2022-07-10 23:57:35,865] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:36,014] {logging_mixin.py:115} INFO - [2022-07-10 23:57:36,013] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 6, in <module>
+    sys.path.append(os.path.dirname())
+TypeError: dirname() missing 1 required positional argument: 'p'
+[2022-07-10 23:57:36,014] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:36,286] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.427 seconds
+[2022-07-10 23:57:38,891] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:38,908] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:38,909] {logging_mixin.py:115} INFO - [2022-07-10 23:57:38,909] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:38,956] {logging_mixin.py:115} INFO - [2022-07-10 23:57:38,955] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 6, in <module>
+    sys.path.append(os.path.dirname(os.get))
+AttributeError: module 'os' has no attribute 'get'
+[2022-07-10 23:57:38,960] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:39,120] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.234 seconds
+[2022-07-10 23:57:40,940] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:40,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:40,942] {logging_mixin.py:115} INFO - [2022-07-10 23:57:40,941] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:41,561] {logging_mixin.py:115} INFO - [2022-07-10 23:57:41,560] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 6, in <module>
+    sys.path.append(os.path.dirname(os.getcwd))
+  File "/usr/local/lib/python3.7/posixpath.py", line 156, in dirname
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not builtin_function_or_method
+[2022-07-10 23:57:41,561] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:41,636] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.699 seconds
+[2022-07-10 23:57:45,672] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:45,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:57:45,674] {logging_mixin.py:115} INFO - [2022-07-10 23:57:45,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:46,020] {logging_mixin.py:115} INFO - [2022-07-10 23:57:46,018] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 7, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:57:46,020] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:57:46,248] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.580 seconds
+[2022-07-10 23:58:16,407] {processor.py:153} INFO - Started process (PID=280) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:16,467] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:58:16,469] {logging_mixin.py:115} INFO - [2022-07-10 23:58:16,468] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:16,487] {logging_mixin.py:115} INFO - [2022-07-10 23:58:16,485] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 7, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:58:16,488] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:16,905] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.507 seconds
+[2022-07-10 23:58:47,039] {processor.py:153} INFO - Started process (PID=308) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:47,041] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:58:47,043] {logging_mixin.py:115} INFO - [2022-07-10 23:58:47,042] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:47,063] {logging_mixin.py:115} INFO - [2022-07-10 23:58:47,061] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 7, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:58:47,064] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:47,189] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.162 seconds
+[2022-07-10 23:58:49,034] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:49,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:58:49,035] {logging_mixin.py:115} INFO - [2022-07-10 23:58:49,035] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:49,042] {logging_mixin.py:115} INFO - [2022-07-10 23:58:49,042] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 7, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:58:49,043] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:58:49,092] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.061 seconds
+[2022-07-10 23:59:19,177] {processor.py:153} INFO - Started process (PID=328) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:59:19,188] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:59:19,189] {logging_mixin.py:115} INFO - [2022-07-10 23:59:19,189] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:59:19,201] {logging_mixin.py:115} INFO - [2022-07-10 23:59:19,200] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 7, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:59:19,201] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:59:19,247] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.125 seconds
+[2022-07-10 23:59:49,323] {processor.py:153} INFO - Started process (PID=355) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:59:49,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-10 23:59:49,324] {logging_mixin.py:115} INFO - [2022-07-10 23:59:49,324] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:59:49,330] {logging_mixin.py:115} INFO - [2022-07-10 23:59:49,329] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 7, in <module>
+    from get_bitcoin import Bitcoin
+ModuleNotFoundError: No module named 'get_bitcoin'
+[2022-07-10 23:59:49,330] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-10 23:59:49,402] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.083 seconds

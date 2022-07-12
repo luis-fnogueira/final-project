@@ -1,0 +1,46 @@
+[2022-07-12 01:57:16,021] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T01:56:50.811972+00:00 [queued]>
+[2022-07-12 01:57:16,035] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T01:56:50.811972+00:00 [queued]>
+[2022-07-12 01:57:16,035] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-12 01:57:16,036] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-12 01:57:16,036] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-12 01:57:16,084] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): parse_tuple> on 2022-07-12 01:56:50.811972+00:00
+[2022-07-12 01:57:16,089] {standard_task_runner.py:52} INFO - Started process 6888 to run task
+[2022-07-12 01:57:16,093] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'bitcoin', 'parse_tuple', 'manual__2022-07-12T01:56:50.811972+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/projeto_api.py', '--cfg-path', '/tmp/tmpq3n40iq0', '--error-file', '/tmp/tmp10y21g1y']
+[2022-07-12 01:57:16,093] {standard_task_runner.py:80} INFO - Job 85: Subtask parse_tuple
+[2022-07-12 01:57:16,306] {task_command.py:370} INFO - Running <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T01:56:50.811972+00:00 [running]> on host 54ef6f590a3a
+[2022-07-12 01:57:16,686] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bitcoin
+AIRFLOW_CTX_TASK_ID=parse_tuple
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-12T01:56:50.811972+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-12T01:56:50.811972+00:00
+[2022-07-12 01:57:16,699] {python.py:173} INFO - Done. Returned value was: dict_values(['2022-07-10', 112650.51249518, 108864.65169488, 108394.36, 112908.99738712, '3293926.47888429', '29.77558944', 2602, 110625.06371273])
+[2022-07-12 01:57:16,708] {xcom.py:585} ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config.
+[2022-07-12 01:57:16,708] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2392, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 197, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 582, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type dict_values is not JSON serializable
+[2022-07-12 01:57:16,857] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=bitcoin, task_id=parse_tuple, execution_date=20220712T015650, start_date=20220712T015716, end_date=20220712T015716
+[2022-07-12 01:57:17,025] {standard_task_runner.py:97} ERROR - Failed to execute job 85 for task parse_tuple (Object of type dict_values is not JSON serializable; 6888)
+[2022-07-12 01:57:17,068] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-12 01:57:17,247] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

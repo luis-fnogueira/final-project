@@ -1,0 +1,23 @@
+[2022-07-12 02:02:12,710] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T02:02:07.984616+00:00 [queued]>
+[2022-07-12 02:02:12,726] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T02:02:07.984616+00:00 [queued]>
+[2022-07-12 02:02:12,726] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-12 02:02:12,727] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-12 02:02:12,727] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-12 02:02:12,811] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): parse_tuple> on 2022-07-12 02:02:07.984616+00:00
+[2022-07-12 02:02:12,818] {standard_task_runner.py:52} INFO - Started process 7090 to run task
+[2022-07-12 02:02:12,826] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'bitcoin', 'parse_tuple', 'manual__2022-07-12T02:02:07.984616+00:00', '--job-id', '87', '--raw', '--subdir', 'DAGS_FOLDER/projeto_api.py', '--cfg-path', '/tmp/tmp9oxg68_0', '--error-file', '/tmp/tmplbbat7re']
+[2022-07-12 02:02:12,827] {standard_task_runner.py:80} INFO - Job 87: Subtask parse_tuple
+[2022-07-12 02:02:12,951] {task_command.py:370} INFO - Running <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T02:02:07.984616+00:00 [running]> on host 54ef6f590a3a
+[2022-07-12 02:02:13,294] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bitcoin
+AIRFLOW_CTX_TASK_ID=parse_tuple
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-12T02:02:07.984616+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-12T02:02:07.984616+00:00
+[2022-07-12 02:02:13,309] {python.py:173} INFO - Done. Returned value was: ['2022-07-10', 112650.51249518, 108864.65169488, 108394.36, 112908.99738712, '3293926.47888429', '29.77558944', 2602, 110625.06371273]
+[2022-07-12 02:02:13,424] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=bitcoin, task_id=parse_tuple, execution_date=20220712T020207, start_date=20220712T020212, end_date=20220712T020213
+[2022-07-12 02:02:13,856] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-12 02:02:14,007] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

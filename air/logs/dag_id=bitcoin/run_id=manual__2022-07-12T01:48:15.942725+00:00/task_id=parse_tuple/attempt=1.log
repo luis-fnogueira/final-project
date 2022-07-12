@@ -1,0 +1,32 @@
+[2022-07-12 01:48:20,149] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T01:48:15.942725+00:00 [queued]>
+[2022-07-12 01:48:20,170] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T01:48:15.942725+00:00 [queued]>
+[2022-07-12 01:48:20,170] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-12 01:48:20,171] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-12 01:48:20,171] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-12 01:48:20,218] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): parse_tuple> on 2022-07-12 01:48:15.942725+00:00
+[2022-07-12 01:48:20,224] {standard_task_runner.py:52} INFO - Started process 6547 to run task
+[2022-07-12 01:48:20,228] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'bitcoin', 'parse_tuple', 'manual__2022-07-12T01:48:15.942725+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/projeto_api.py', '--cfg-path', '/tmp/tmpz2de3pq0', '--error-file', '/tmp/tmpcbwxncpu']
+[2022-07-12 01:48:20,229] {standard_task_runner.py:80} INFO - Job 72: Subtask parse_tuple
+[2022-07-12 01:48:20,361] {task_command.py:370} INFO - Running <TaskInstance: bitcoin.parse_tuple manual__2022-07-12T01:48:15.942725+00:00 [running]> on host 54ef6f590a3a
+[2022-07-12 01:48:20,563] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bitcoin
+AIRFLOW_CTX_TASK_ID=parse_tuple
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-12T01:48:15.942725+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-12T01:48:15.942725+00:00
+[2022-07-12 01:48:20,586] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/get_bitcoin.py", line 29, in to_tuple
+    list_values = [x for x in ext_dict.values()]
+AttributeError: 'set' object has no attribute 'values'
+[2022-07-12 01:48:20,604] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=bitcoin, task_id=parse_tuple, execution_date=20220712T014815, start_date=20220712T014820, end_date=20220712T014820
+[2022-07-12 01:48:20,647] {standard_task_runner.py:97} ERROR - Failed to execute job 72 for task parse_tuple ('set' object has no attribute 'values'; 6547)
+[2022-07-12 01:48:20,693] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-12 01:48:20,768] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
