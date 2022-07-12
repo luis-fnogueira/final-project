@@ -1,10 +1,12 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, date, timedelta
-from airflow.providers.http.sensors.http import HttpSensor
-from airflow.providers.http.operators.http import SimpleHttpOperator
+import sys
 
-from get_bitcoin import Bitcoin
+# Appending our folder with functions
+sys.path.append('air/dags/functions')
+
+from functions.get_bitcoin import Bitcoin
 
 
 default_args = {

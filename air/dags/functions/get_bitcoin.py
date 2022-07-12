@@ -1,6 +1,7 @@
 import requests
 import ast
-from datetime import date, timedelta
+
+
 
 class Bitcoin():
 
@@ -34,5 +35,4 @@ class Bitcoin():
 
 
 if __name__ == '__main__':
-    btc = Bitcoin()
-    btc.response_get()
+    pass

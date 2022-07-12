@@ -1,3 +1,6 @@
 /.env
 /nifi.txt
 /testes.py
+/.vscode
+/.pytest_cache
+/__pycache__
