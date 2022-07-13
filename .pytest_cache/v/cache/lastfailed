@@ -1,4 +1,0 @@
-{
-  "wo_airflow/tests/test_db_manipulation.py": true,
-  "wo_airflow/tests/test_get_bitcoin.py": true
-}

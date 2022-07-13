@@ -2,16 +2,19 @@ import psycopg2
 from tabulate import tabulate
 
 
-class Postgres_exec():
+class Database():
 
     # Constructor method initializing the connection to DB and creating cursor
-    def __init__(self, db="projeto-pos", user="postgres", host="localhost", password="123456", port="5433"):
+    def __init__(self, db="projeto-pos", user="postgres", host="postgres", password="123456", port="5432"):
         self.conn = psycopg2.connect(
             database=db, host=host, port=port, password=password, user=user)
         self.cur = self.conn.cursor()
 
     # SQL INSERT INTO method. The values paremeter is a tuple
-    def insert_into(self, values: tuple):
+    def insert_into(self, ti):
+
+        # Here we get the value from the last task
+        posts = ti.xcom_pull(task_ids=['parse_tuple'])
 
         postgres_insert_query = """ 
                                 INSERT INTO 
@@ -29,7 +32,7 @@ class Postgres_exec():
                                 (%s ,%s ,%s ,%s ,%s ,%s ,%s ,%s ,%s)
                                 """
 
-        self.cur.execute(postgres_insert_query, values)
+        self.cur.execute(postgres_insert_query, posts)
         self.conn.commit()
 
 
@@ -50,6 +53,4 @@ class Postgres_exec():
 
 
 if __name__ == '__main__':
-    db = Postgres_exec()
-    select = db.select_all()
-    print(type(select))
+    pass

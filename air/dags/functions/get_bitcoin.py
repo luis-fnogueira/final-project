@@ -2,7 +2,6 @@ import requests
 import ast
 
 
-
 class Bitcoin():
 
     # This function gets data from API 

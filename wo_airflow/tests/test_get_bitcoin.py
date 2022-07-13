@@ -1,8 +1,10 @@
 import pytest
-# import requests
 import datetime
+import sys
+# Appending our folder with functions
+sys.path.append('wo_airflow')
 
-from wo_airflow.get_bitcoin1 import Bitcoin
+from get_bitcoin1 import Bitcoin
 
 
 class TestDaySummaryApi:

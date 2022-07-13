@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  database:
+  postgres:
     image: postgres:latest
     container_name: postgres
     environment:
@@ -11,6 +11,9 @@ services:
       - "5433:5432"
     volumes:
       - postgres_volume:/var/lib/postgresql/data
+    networks:
+    - rede_projeto
+
   metabase:
     image: metabase/metabase
     container_name: metabase
@@ -20,9 +23,12 @@ services:
       - "3000:3000"
     volumes:
       - data:/metabase-data/metabase.db
+    networks:
+    - rede_projeto
       
 networks:
   rede_projeto:
+    name: rede_projeto
     external: true
 
 volumes:

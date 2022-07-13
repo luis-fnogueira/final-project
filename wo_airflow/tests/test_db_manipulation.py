@@ -1,8 +1,9 @@
 import pytest
-# import requests
-import datetime
+import sys
+# Appending our folder with functions
+sys.path.append('wo_airflow')
 
-from wo_airflow.db_manipulation1 import Postgres_exec
+from db_manipulation1 import Postgres_exec
 
 class TestPostgres_exec:
     @staticmethod
