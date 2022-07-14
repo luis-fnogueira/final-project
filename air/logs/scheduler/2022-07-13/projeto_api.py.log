@@ -5687,3 +5687,42 @@ Traceback (most recent call last):
 sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "postgres" (172.19.0.9), port 5432 failed: FATAL:  password authentication failed for user "airflow"
 
 (Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2022-07-13 20:37:09,029] {processor.py:153} INFO - Started process (PID=56) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:37:09,039] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-13 20:37:09,040] {logging_mixin.py:115} INFO - [2022-07-13 20:37:09,040] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:37:09,056] {logging_mixin.py:115} INFO - [2022-07-13 20:37:09,054] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/projeto_api.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/projeto_api.py", line 24, in <module>
+    db = Database()
+  File "/opt/airflow/dags/functions/db_manipulation.py", line 10, in __init__
+    database=db, host=host, port=port, password=password, user=user)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (172.19.0.3), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+[2022-07-13 20:37:09,057] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:37:09,099] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.091 seconds
+[2022-07-13 20:37:30,150] {processor.py:153} INFO - Started process (PID=42) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:37:30,161] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-13 20:37:30,161] {logging_mixin.py:115} INFO - [2022-07-13 20:37:30,161] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:37:30,184] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:37:30,219] {logging_mixin.py:115} INFO - [2022-07-13 20:37:30,219] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-13 20:37:30,399] {logging_mixin.py:115} INFO - [2022-07-13 20:37:30,399] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-13T00:00:00+00:00, run_after=2022-07-14T00:00:00+00:00
+[2022-07-13 20:37:30,442] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.295 seconds
+[2022-07-13 20:38:07,447] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:38:07,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-13 20:38:07,460] {logging_mixin.py:115} INFO - [2022-07-13 20:38:07,460] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:38:07,493] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:38:07,950] {logging_mixin.py:115} INFO - [2022-07-13 20:38:07,950] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-13 20:38:08,131] {logging_mixin.py:115} INFO - [2022-07-13 20:38:08,131] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-13T00:00:00+00:00, run_after=2022-07-14T00:00:00+00:00
+[2022-07-13 20:38:08,162] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.720 seconds
+[2022-07-13 20:38:38,277] {processor.py:153} INFO - Started process (PID=62) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:38:38,278] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-13 20:38:38,279] {logging_mixin.py:115} INFO - [2022-07-13 20:38:38,279] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:38:38,310] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-13 20:38:38,657] {logging_mixin.py:115} INFO - [2022-07-13 20:38:38,657] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-13 20:38:38,792] {logging_mixin.py:115} INFO - [2022-07-13 20:38:38,792] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-13T00:00:00+00:00, run_after=2022-07-14T00:00:00+00:00
+[2022-07-13 20:38:38,816] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.549 seconds

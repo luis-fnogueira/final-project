@@ -2,7 +2,7 @@ import psycopg2
 from tabulate import tabulate
 
 
-class Postgres_exec():
+class Database():
 
     # Constructor method initializing the connection to DB and creating cursor
     def __init__(self, db="projeto-pos", user="postgres", host="localhost", password="123456", port="5433"):
