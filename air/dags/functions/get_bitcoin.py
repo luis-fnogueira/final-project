@@ -7,11 +7,22 @@ class Bitcoin():
     # This function gets data from API 
     def response_get(self, yr: int, month: int, day: int) -> str:
 
-        response_API = requests.get(f'https://www.mercadobitcoin.net/api/BTC/day-summary/{yr}/{month}/{day}')
-        
-        data = response_API.text
+        URL = 'https://www.mercadobitcoin.net/api/BTC/day-summary'
 
-        return data
+        response_API = requests.get(f'{URL}/{yr}/{month}/{day}')
+        
+        to_json = response_API.json()
+
+        values =  []
+
+        columns = []
+
+        for column, value in to_json.items():
+            values.append(value)
+            columns.append(column)
+
+        return columns, values
+
         
 
     # This function extracts the values from JSON
@@ -34,4 +45,7 @@ class Bitcoin():
 
 
 if __name__ == '__main__':
-    pass
+    btc = Bitcoin()
+    response = btc.response_get(yr=2021, month= 8, day= 25)
+    #to_tuple = btc.to_tuple(response)
+    print(*response)

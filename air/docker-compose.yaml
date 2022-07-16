@@ -87,6 +87,8 @@ services:
     restart: always
     networks:
       - rede_projeto
+    ports:
+      - "5434:5432"
 
   redis:
     image: redis:latest

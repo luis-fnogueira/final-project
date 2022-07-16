@@ -29,8 +29,7 @@ with DAG('bitcoin', schedule_interval='@daily', default_args=default_args, catch
     get_api = PythonOperator(
         task_id='get_api',
         python_callable=btc.response_get,
-        op_kwargs={'yr': 2022, 'month': 7, 'day': 10}
-        #op_kwargs={'yr': yesterday.year, 'month': yesterday.month, 'day': yesterday.day}
+        op_kwargs={'yr': yesterday.year, 'month': yesterday.month, 'day': yesterday.day}
         )
 
 
