@@ -1,4 +1,3 @@
-from importlib_metadata import method_cache
 import requests
 
 
@@ -17,7 +16,8 @@ class MercadoBitcoin(GetResponse):
 
     beginningOfUrl = 'https://www.mercadobitcoin.net/api'
 
-    # This function gets data from API 
+
+    # This method is to get generally from the API
     def standardGet(self, coin: str, method: str):
 
         URL = f'{self.beginningOfUrl}/{coin}/{method}/'
@@ -27,6 +27,7 @@ class MercadoBitcoin(GetResponse):
         return urlGet
 
     
+    # This method is to get specifically from the API Day Summary
     def daySummary(self, year: int, month: int, day: int, coin: str):
         
         method = 'day-summary'
@@ -37,7 +38,6 @@ class MercadoBitcoin(GetResponse):
 
         return urlGet
 
-if __name__ == '__main__':
 
-    daysummary = MercadoBitcoin()
-    daysummary.daySummary(coin='BTC', year=2022, month=7, day=16)
+if __name__ == '__main__':
+    pass

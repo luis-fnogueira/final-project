@@ -21,6 +21,7 @@ class Postgres():
 class CommandsModeling(Postgres):
 
 
+    # In this method we extract the values from JSON and input it into DB. 
     def insertInto(self, data, table):
 
         values = tuple(data.values())
