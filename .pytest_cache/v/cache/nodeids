@@ -1,8 +1,0 @@
-[
-  "wo_airflow/tests/test_get_bitcoin.py::TestDaySummaryApi::test_get_bitcoin[date0-{\"date\":\"2022-05-05\",\"opening\":195983.44999999,\"closing\":184756.74842256,\"lowest\":181000,\"highest\":197997.99999,\"volume\":\"18864473.35309500\",\"quantity\":\"100.91986222\",\"amount\":10677,\"avg_price\":186925.27851426}]",
-  "wo_airflow/tests/test_get_bitcoin.py::TestDaySummaryApi::test_get_bitcoin[date1-{\"date\":\"2022-05-05\",\"opening\":195983.44999999,\"closing\":184756.74842256,\"lowest\":181000,\"highest\":197997.99999,\"volume\":\"18864473.35309500\",\"quantity\":\"100.91986222\",\"amount\":10677,\"avg_price\":186925.27851426}]",
-  "wo_airflow/tests/test_get_bitcoin.py::TestDaySummaryApi::test_get_bitcoin[date2-{\"date\":\"2022-05-05\",\"opening\":195983.44999999,\"closing\":184756.74842256,\"lowest\":181000,\"highest\":197997.99999,\"volume\":\"18864473.35309500\",\"quantity\":\"100.91986222\",\"amount\":10677,\"avg_price\":186925.27851426}]",
-  "wo_airflow/tests/test_get_bitcoin.py::TestDaySummaryApi::test_to_tuple[{'date': '2022-05-05', 'opening': 195983.44999999, 'closing': 184756.74842256, 'lowest': 181000, 'highest': 197997.99999, 'volume': '18864473.35309500', 'quantity': '100.91986222', 'amount': 10677, 'avg_price': 186925.27851426}-expected0]",
-  "wo_airflow/tests/test_get_bitcoin.py::TestDaySummaryApi::test_to_tuple[data1-expected1]",
-  "wo_airflow/tests/test_get_bitcoin.py::TestDaySummaryApi::test_to_tuple[{'date': '2002-05-05', 'opening': 195983.44999999, 'closing': 184756.74842256, 'lowest': 181000, 'highest': 197997.99999, 'volume': '18864473.35309500', 'quantity': '100.91986222', 'amount': 10677, 'avg_price': 186925.27851426}-expected2]"
-]
