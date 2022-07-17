@@ -1,56 +1,43 @@
 import psycopg2
-from tabulate import tabulate
 
 
-class Database():
+class Postgres():
 
     # Constructor method initializing the connection to DB and creating cursor
-    def __init__(self, db="projeto-pos", user="postgres", host="postgres", password="123456", port="5432"):
+    def __init__(self, db, user, host, password, port, schema):
+        
+        self.db = db
+        self.user = user
+        self.host = host
+        self.password = password
+        self.port = port
+        self.schema = schema
+
         self.conn = psycopg2.connect(
             database=db, host=host, port=port, password=password, user=user)
         self.cur = self.conn.cursor()
 
-    # SQL INSERT INTO method. The values paremeter is a tuple
-    def insert_into(self, ti):
 
-        # Here we get the value from the last task
-        posts = ti.xcom_pull(task_ids=['parse_tuple'])
+class CommandsModeling(Postgres):
 
-        postgres_insert_query = """ 
-                                INSERT INTO 
-                                projeto.bitcoin_history 
-                                ("date_summary",
-                                "opening",
-                                "closing",
-                                "lowest",
-                                "highest", 
-                                "volume",
-                                "quantity", 
-                                "amount",
-                                "avg_price") 
-                                VALUES 
-                                (%s ,%s ,%s ,%s ,%s ,%s ,%s ,%s ,%s)
-                                """
 
-        self.cur.execute(postgres_insert_query, posts)
+    def insertInto(self, data, table):
+
+        values = tuple(data.values())
+
+        numberOfColumnsMinusOne = len(values) - 1
+        valuesParametersMinusOne = '%s, ' * numberOfColumnsMinusOne
+
+        insertQuery = f"INSERT INTO {self.schema}.{table} VALUES ({valuesParametersMinusOne}%s)  "
+
+        self.cur.execute(insertQuery, values)
+
         self.conn.commit()
 
 
-    # This function does a SELECT ALL FROM table in the database
-    def select_all(self):
-
-        self.cur.execute(""" SELECT * FROM projeto.bitcoin_history """)
-        result = self.cur.fetchall()
-        print(tabulate(result, headers=["date_summary",
-                                        "opening",
-                                        "closing",
-                                        "lowest",
-                                        "highest",
-                                        "volume",
-                                        "quantity",
-                                        "amount",
-                                        "avg_price"], tablefmt='psql'))
-
-
 if __name__ == '__main__':
-    pass
+    postgres = CommandsModeling(db="bitcoin_data", user="airflow", host="localhost",
+                                password="airflow", port="5434", schema='public')
+    
+    data = {"date":"2022-07-15","opening":111219.96952424,"closing":112193.99983999,"lowest":111015.09208512,"highest":114500,"volume":"5127633.49018562","quantity":"45.34416209","amount":3725,"avg_price":113082.55029629}
+    postgres.insertInto(data=data, table='bitcoin_history')

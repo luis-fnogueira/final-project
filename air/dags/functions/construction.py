@@ -48,18 +48,11 @@ class Bitcoin():
 
         ApiResponse = requests.get(f'{URL}/{year}/{month}/{day}')
         
-        to_json = ApiResponse.json()
+        toJson = ApiResponse.json()
         
-        return to_json
+        return toJson
 
 if __name__ == '__main__':
-    postgres = Postgres(db="bitcoin_data", user="airflow", host="localhost",
-                        password="airflow", port="5434", schema='public')
-
     bitcoin = Bitcoin()
-
-    response = bitcoin.response_get(2022, 7, 14)
-
-    table = 'bitcoin_history'
-
-    postgres.insert_into(response, table=table)
+    bitcoin.response_get(year=2022, month=7, day=16)
+    

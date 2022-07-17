@@ -18796,3 +18796,1147 @@ File Path                         PID    Runtime      # DAGs    # Errors  Last R
 /opt/airflow/dags/projeto_api.py                           0          -1  0.09s           2022-07-16T22:35:48
 ================================================================================
 [2022-07-16 22:36:12,164] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-07-17 13:59:22,988] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-07-17 13:59:23,284] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-07-17 13:59:23,284] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-07-17 13:59:23,284] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 13:59:24,239] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 13:59:25,356] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/projeto_api.py     64  0.02s             0           0
+================================================================================
+[2022-07-17 13:59:25,748] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 13:59:55,416] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.42s           2022-07-17T13:59:25
+================================================================================
+[2022-07-17 14:00:25,892] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.39s           2022-07-17T13:59:56
+================================================================================
+[2022-07-17 14:00:29,359] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-07-17 14:00:43,087] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-07-17 14:00:43,088] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-07-17 14:00:43,088] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-07-17 14:00:43,088] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:00:43,092] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:00:43,165] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/projeto_api.py     42  0.02s             0           0
+================================================================================
+[2022-07-17 14:00:44,667] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-07-17 14:01:08,449] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-07-17 14:01:08,450] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-07-17 14:01:08,450] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-07-17 14:01:08,450] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:01:08,465] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:01:08,543] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/projeto_api.py     40  0.01s             0           0
+================================================================================
+[2022-07-17 14:01:10,062] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-07-17 14:01:43,784] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-07-17 14:01:43,785] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-07-17 14:01:43,785] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-07-17 14:01:43,785] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:01:43,788] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:01:43,914] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/projeto_api.py     33  0.04s             0           0
+================================================================================
+[2022-07-17 14:02:13,972] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.81s           2022-07-17T14:01:44
+================================================================================
+[2022-07-17 14:02:14,817] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:02:44,863] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py     78  0.01s             0          -1  0.06s           2022-07-17T14:02:14
+================================================================================
+[2022-07-17 14:02:45,618] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:03:14,924] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.77s           2022-07-17T14:02:45
+================================================================================
+[2022-07-17 14:03:15,763] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:03:45,776] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:03:45,794] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:03:45,836] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py    124  0.01s             0          -1  0.07s           2022-07-17T14:03:15
+================================================================================
+[2022-07-17 14:03:45,923] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:04:15,922] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.10s           2022-07-17T14:03:45
+================================================================================
+[2022-07-17 14:04:46,036] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.55s           2022-07-17T14:04:16
+================================================================================
+[2022-07-17 14:05:16,661] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.24s           2022-07-17T14:04:46
+================================================================================
+[2022-07-17 14:05:18,166] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:05:46,217] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:05:46,223] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:05:46,945] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  1.29s           2022-07-17T14:05:18
+================================================================================
+[2022-07-17 14:06:17,017] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py    216  28.69s            0          -1  1.29s           2022-07-17T14:05:18
+================================================================================
+[2022-07-17 14:06:38,417] {manager.py:1082} ERROR - Processor for /opt/airflow/dags/projeto_api.py with PID 216 started at 2022-07-17T14:05:48.321534+00:00 has timed out, killing it.
+[2022-07-17 14:06:44,135] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:06:44,531] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:06:45,518] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:06:47,530] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  7.04s           2022-07-17T14:06:45
+================================================================================
+[2022-07-17 14:07:17,627] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py    261  2.02s             0          -1  7.04s           2022-07-17T14:06:45
+================================================================================
+[2022-07-17 14:07:48,054] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  3.45s           2022-07-17T14:07:19
+================================================================================
+[2022-07-17 14:08:18,665] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py    280  29.52s            0           1  3.45s           2022-07-17T14:07:19
+================================================================================
+[2022-07-17 14:08:39,744] {manager.py:1082} ERROR - Processor for /opt/airflow/dags/projeto_api.py with PID 280 started at 2022-07-17T14:07:49.140595+00:00 has timed out, killing it.
+[2022-07-17 14:08:42,654] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:08:48,912] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  2.89s           2022-07-17T14:08:42
+================================================================================
+[2022-07-17 14:09:19,559] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  4.01s           2022-07-17T14:09:17
+================================================================================
+[2022-07-17 14:09:49,647] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py    353  2.01s             0           1  4.01s           2022-07-17T14:09:17
+================================================================================
+[2022-07-17 14:10:19,745] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py    353  32.11s            0           1  4.01s           2022-07-17T14:09:17
+================================================================================
+[2022-07-17 14:10:37,793] {manager.py:1082} ERROR - Processor for /opt/airflow/dags/projeto_api.py with PID 353 started at 2022-07-17T14:09:47.631775+00:00 has timed out, killing it.
+[2022-07-17 14:10:50,059] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py    390  12.05s            0           1  4.01s           2022-07-17T14:09:17
+================================================================================
+[2022-07-17 14:11:20,166] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py    390  42.15s            0           1  4.01s           2022-07-17T14:09:17
+================================================================================
+[2022-07-17 14:11:44,213] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:11:44,221] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:11:50,285] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  50.07s          2022-07-17T14:11:28
+================================================================================
+[2022-07-17 14:11:58,288] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:12:20,332] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.12s           2022-07-17T14:11:58
+================================================================================
+[2022-07-17 14:12:28,430] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:12:49,419] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:12:49,423] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:12:50,558] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.08s           2022-07-17T14:12:28
+================================================================================
+[2022-07-17 14:13:20,637] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.52s           2022-07-17T14:12:59
+================================================================================
+[2022-07-17 14:13:30,351] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:13:51,250] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  1.17s           2022-07-17T14:13:30
+================================================================================
+[2022-07-17 14:14:00,476] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:14:21,464] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.07s           2022-07-17T14:14:00
+================================================================================
+[2022-07-17 14:14:30,535] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:14:50,576] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:14:50,579] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:14:51,644] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.05s           2022-07-17T14:14:30
+================================================================================
+[2022-07-17 14:15:00,788] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:15:21,734] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.12s           2022-07-17T14:15:00
+================================================================================
+[2022-07-17 14:15:51,913] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.15s           2022-07-17T14:15:30
+================================================================================
+[2022-07-17 14:16:01,224] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:16:22,117] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.17s           2022-07-17T14:16:01
+================================================================================
+[2022-07-17 14:16:44,341] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:16:44,345] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:16:52,381] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.68s           2022-07-17T14:16:31
+================================================================================
+[2022-07-17 14:17:22,408] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.32s           2022-07-17T14:17:02
+================================================================================
+[2022-07-17 14:17:32,623] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:17:51,491] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:17:51,495] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:17:52,594] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.20s           2022-07-17T14:17:32
+================================================================================
+[2022-07-17 14:18:22,735] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.52s           2022-07-17T14:18:03
+================================================================================
+[2022-07-17 14:18:53,329] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.14s           2022-07-17T14:18:33
+================================================================================
+[2022-07-17 14:19:23,509] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.43s           2022-07-17T14:19:03
+================================================================================
+[2022-07-17 14:19:34,207] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:19:54,019] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.25s           2022-07-17T14:19:34
+================================================================================
+[2022-07-17 14:20:24,315] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.52s           2022-07-17T14:20:04
+================================================================================
+[2022-07-17 14:20:54,391] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  3.50s           2022-07-17T14:20:38
+================================================================================
+[2022-07-17 14:21:24,488] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  1.20s           2022-07-17T14:21:09
+================================================================================
+[2022-07-17 14:21:39,741] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:21:44,697] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:21:44,701] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:21:54,768] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.06s           2022-07-17T14:21:39
+================================================================================
+[2022-07-17 14:22:24,870] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  5.05s           2022-07-17T14:22:14
+================================================================================
+[2022-07-17 14:22:54,972] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  1.05s           2022-07-17T14:22:45
+================================================================================
+[2022-07-17 14:23:25,047] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.56s           2022-07-17T14:23:16
+================================================================================
+[2022-07-17 14:23:55,085] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.43s           2022-07-17T14:23:47
+================================================================================
+[2022-07-17 14:24:25,160] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.33s           2022-07-17T14:24:17
+================================================================================
+[2022-07-17 14:24:47,782] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:24:54,546] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:24:54,549] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:24:55,602] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.27s           2022-07-17T14:24:47
+================================================================================
+[2022-07-17 14:25:25,858] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.39s           2022-07-17T14:25:18
+================================================================================
+[2022-07-17 14:25:56,315] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.30s           2022-07-17T14:25:48
+================================================================================
+[2022-07-17 14:26:26,670] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.30s           2022-07-17T14:26:18
+================================================================================
+[2022-07-17 14:26:44,718] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:26:44,721] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:26:49,294] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:26:57,027] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.29s           2022-07-17T14:26:49
+================================================================================
+[2022-07-17 14:27:27,047] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.68s           2022-07-17T14:27:20
+================================================================================
+[2022-07-17 14:27:57,449] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.49s           2022-07-17T14:27:50
+================================================================================
+[2022-07-17 14:28:21,321] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:28:27,694] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.66s           2022-07-17T14:28:21
+================================================================================
+[2022-07-17 14:28:57,772] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.86s           2022-07-17T14:28:52
+================================================================================
+[2022-07-17 14:29:28,344] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.25s           2022-07-17T14:29:22
+================================================================================
+[2022-07-17 14:29:55,909] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:29:55,921] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:29:58,658] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.26s           2022-07-17T14:29:52
+================================================================================
+[2022-07-17 14:30:29,036] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.46s           2022-07-17T14:30:23
+================================================================================
+[2022-07-17 14:30:53,756] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:30:59,561] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.22s           2022-07-17T14:30:53
+================================================================================
+[2022-07-17 14:31:29,830] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.35s           2022-07-17T14:31:24
+================================================================================
+[2022-07-17 14:31:44,865] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:31:44,868] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:31:44,884] {manager.py:700} ERROR - Error removing old import errors
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 481, in checkout
+    rec._checkin_failed(err, _fairy_was_created=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 478, in checkout
+    dbapi_connection = rec.get_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 636, in get_connection
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "postgres" (172.19.0.2), port 5432 failed: FATAL:  password authentication failed for user "airflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 698, in _refresh_dag_dir
+    self.clear_nonexistent_import_errors()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 743, in clear_nonexistent_import_errors
+    query.delete(synchronize_session='fetch')
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3194, in delete
+    execution_options={"synchronize_session": synchronize_session},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1530, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3197, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3276, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3247, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2101, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 481, in checkout
+    rec._checkin_failed(err, _fairy_was_created=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 478, in checkout
+    dbapi_connection = rec.get_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 636, in get_connection
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "postgres" (172.19.0.2), port 5432 failed: FATAL:  password authentication failed for user "airflow"
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2022-07-17 14:31:45,826] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-07-17 14:31:45,826] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-07-17 14:31:45,826] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-07-17 14:31:45,827] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:31:45,831] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:31:45,885] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/projeto_api.py   1303  0.01s             0           0
+================================================================================
+[2022-07-17 14:32:15,941] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.49s           2022-07-17T14:31:46
+================================================================================
+[2022-07-17 14:32:46,508] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.17s           2022-07-17T14:32:16
+================================================================================
+[2022-07-17 14:32:46,686] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:33:16,742] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py   1368  0.01s             0          -1  0.05s           2022-07-17T14:32:46
+================================================================================
+[2022-07-17 14:33:46,826] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.33s           2022-07-17T14:33:17
+================================================================================
+[2022-07-17 14:33:47,228] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:34:17,194] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.12s           2022-07-17T14:33:47
+================================================================================
+[2022-07-17 14:34:47,377] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.19s           2022-07-17T14:34:17
+================================================================================
+[2022-07-17 14:35:17,626] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py   1462  0.01s             0           1  0.08s           2022-07-17T14:34:47
+================================================================================
+[2022-07-17 14:35:47,764] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.20s           2022-07-17T14:35:17
+================================================================================
+[2022-07-17 14:36:17,959] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.11s           2022-07-17T14:35:47
+================================================================================
+[2022-07-17 14:36:46,115] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:36:46,120] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:36:48,162] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:36:48,176] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:36:48,197] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.17s           2022-07-17T14:36:18
+================================================================================
+[2022-07-17 14:36:48,737] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:37:18,335] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.48s           2022-07-17T14:36:48
+================================================================================
+[2022-07-17 14:37:48,892] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.13s           2022-07-17T14:37:18
+================================================================================
+[2022-07-17 14:38:19,079] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.20s           2022-07-17T14:37:49
+================================================================================
+[2022-07-17 14:38:19,652] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:38:49,324] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.41s           2022-07-17T14:38:19
+================================================================================
+[2022-07-17 14:39:19,795] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.17s           2022-07-17T14:38:49
+================================================================================
+[2022-07-17 14:39:20,104] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:39:50,036] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.16s           2022-07-17T14:39:20
+================================================================================
+[2022-07-17 14:40:20,223] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.52s           2022-07-17T14:39:50
+================================================================================
+[2022-07-17 14:40:50,838] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.25s           2022-07-17T14:40:20
+================================================================================
+[2022-07-17 14:41:21,145] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.22s           2022-07-17T14:40:51
+================================================================================
+[2022-07-17 14:41:21,471] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:41:46,403] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:41:46,409] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:41:51,461] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.15s           2022-07-17T14:41:21
+================================================================================
+[2022-07-17 14:41:51,571] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:42:21,617] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py   1771  0.01s             0          -1  0.04s           2022-07-17T14:41:51
+================================================================================
+[2022-07-17 14:42:21,869] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:42:50,702] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:42:50,706] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:42:51,835] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.26s           2022-07-17T14:42:21
+================================================================================
+[2022-07-17 14:43:22,031] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.25s           2022-07-17T14:42:52
+================================================================================
+[2022-07-17 14:43:23,146] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:43:52,117] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.91s           2022-07-17T14:43:23
+================================================================================
+[2022-07-17 14:43:53,259] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:44:22,281] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.06s           2022-07-17T14:43:53
+================================================================================
+[2022-07-17 14:44:52,402] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.23s           2022-07-17T14:44:23
+================================================================================
+[2022-07-17 14:45:22,656] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.28s           2022-07-17T14:44:53
+================================================================================
+[2022-07-17 14:45:52,997] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.21s           2022-07-17T14:45:24
+================================================================================
+[2022-07-17 14:45:54,276] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:46:23,261] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.11s           2022-07-17T14:45:54
+================================================================================
+[2022-07-17 14:46:46,839] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:46:46,843] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:46:53,408] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.46s           2022-07-17T14:46:24
+================================================================================
+[2022-07-17 14:47:23,957] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  1.43s           2022-07-17T14:46:56
+================================================================================
+[2022-07-17 14:47:26,457] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:47:54,483] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.07s           2022-07-17T14:47:26
+================================================================================
+[2022-07-17 14:47:56,564] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:48:24,580] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.07s           2022-07-17T14:47:56
+================================================================================
+[2022-07-17 14:48:54,701] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.19s           2022-07-17T14:48:26
+================================================================================
+[2022-07-17 14:49:25,052] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  1.43s           2022-07-17T14:48:58
+================================================================================
+[2022-07-17 14:49:28,384] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:49:55,412] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.06s           2022-07-17T14:49:28
+================================================================================
+[2022-07-17 14:50:25,503] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.63s           2022-07-17T14:49:59
+================================================================================
+[2022-07-17 14:50:55,586] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.66s           2022-07-17T14:50:29
+================================================================================
+[2022-07-17 14:50:59,937] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:51:25,904] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.11s           2022-07-17T14:50:59
+================================================================================
+[2022-07-17 14:51:47,043] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:51:47,048] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:51:54,104] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:51:54,130] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:51:56,161] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.15s           2022-07-17T14:51:30
+================================================================================
+[2022-07-17 14:52:26,285] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.41s           2022-07-17T14:52:00
+================================================================================
+[2022-07-17 14:52:56,762] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.36s           2022-07-17T14:52:31
+================================================================================
+[2022-07-17 14:53:01,508] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:53:27,183] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.41s           2022-07-17T14:53:01
+================================================================================
+[2022-07-17 14:53:31,614] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:53:55,651] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:53:55,655] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:53:57,678] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.04s           2022-07-17T14:53:31
+================================================================================
+[2022-07-17 14:54:27,751] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.71s           2022-07-17T14:54:02
+================================================================================
+[2022-07-17 14:54:32,611] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:54:58,550] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0          -1  0.14s           2022-07-17T14:54:32
+================================================================================
+[2022-07-17 14:55:28,730] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.19s           2022-07-17T14:55:02
+================================================================================
+[2022-07-17 14:55:58,976] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           1           0  0.42s           2022-07-17T14:55:33
+================================================================================
+[2022-07-17 14:56:29,456] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.09s           2022-07-17T14:56:03
+================================================================================
+[2022-07-17 14:56:47,556] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-07-17 14:56:47,558] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2022-07-17 14:56:57,603] {manager.py:511} INFO - DAG bitcoin is missing and will be deactivated.
+[2022-07-17 14:56:57,609] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-07-17 14:56:59,637] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/projeto_api.py                           0           1  0.28s           2022-07-17T14:56:33
+================================================================================
+[2022-07-17 14:57:03,939] {manager.py:925} ERROR - Processor for /opt/airflow/dags/projeto_api.py exited with return code 1.
+[2022-07-17 14:57:04,537] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
