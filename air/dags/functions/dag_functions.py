@@ -12,4 +12,5 @@ class DaySummaryDag():
 
         postgres = db_manipulation.CommandsModeling(db="bitcoin_data", user="airflow", host="localhost",
                                                     password="airflow", port="5434", schema='public')
+        
         postgres.insertInto(response, table='bitcoin_history')
