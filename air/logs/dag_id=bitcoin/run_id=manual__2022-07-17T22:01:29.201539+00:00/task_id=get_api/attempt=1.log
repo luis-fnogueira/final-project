@@ -1,0 +1,51 @@
+[2022-07-17 22:01:33,054] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: bitcoin.get_api manual__2022-07-17T22:01:29.201539+00:00 [queued]>
+[2022-07-17 22:01:33,070] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: bitcoin.get_api manual__2022-07-17T22:01:29.201539+00:00 [queued]>
+[2022-07-17 22:01:33,070] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 22:01:33,071] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-07-17 22:01:33,071] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-17 22:01:33,245] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_api> on 2022-07-17 22:01:29.201539+00:00
+[2022-07-17 22:01:33,250] {standard_task_runner.py:52} INFO - Started process 656 to run task
+[2022-07-17 22:01:33,255] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'bitcoin', 'get_api', 'manual__2022-07-17T22:01:29.201539+00:00', '--job-id', '166', '--raw', '--subdir', 'DAGS_FOLDER/projeto_api.py', '--cfg-path', '/tmp/tmpj5bj77kr', '--error-file', '/tmp/tmpw1d28i9y']
+[2022-07-17 22:01:33,255] {standard_task_runner.py:80} INFO - Job 166: Subtask get_api
+[2022-07-17 22:01:33,494] {task_command.py:371} INFO - Running <TaskInstance: bitcoin.get_api manual__2022-07-17T22:01:29.201539+00:00 [running]> on host 35b853283dd2
+[2022-07-17 22:01:33,856] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bitcoin
+AIRFLOW_CTX_TASK_ID=get_api
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-17T22:01:29.201539+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-17T22:01:29.201539+00:00
+[2022-07-17 22:01:34,723] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 972, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.7/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/functions/dag_functions.py", line 15, in getAndInputDaySummary
+    response = bitcoin.daySummary(year=year, month=month, day=day, coin=coin)
+  File "/opt/airflow/dags/functions/get_bitcoin.py", line 37, in daySummary
+    urlGet = super().getDeserialize(URL)
+  File "/opt/airflow/dags/functions/get_bitcoin.py", line 10, in getDeserialize
+    toJson = ApiResponse.json()
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 976, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2022-07-17 22:01:34,790] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=bitcoin, task_id=get_api, execution_date=20220717T220129, start_date=20220717T220133, end_date=20220717T220134
+[2022-07-17 22:01:34,916] {standard_task_runner.py:97} ERROR - Failed to execute job 166 for task get_api (Expecting value: line 1 column 1 (char 0); 656)
+[2022-07-17 22:01:34,950] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-17 22:01:35,038] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

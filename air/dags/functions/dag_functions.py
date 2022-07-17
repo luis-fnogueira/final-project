@@ -1,16 +1,28 @@
-import get_bitcoin
-import db_manipulation
+from functions.get_bitcoin import MercadoBitcoin
+# from get_bitcoin import MercadoBitcoin
+from functions.db_manipulation import CommandsModeling
+# from db_manipulation import CommandsModeling
+
+# Appending our folder with functions
+import sys
+sys.path.append('air/dags/functions')
+
 
 
 class DaySummaryDag():
 
 
-    def getAndInputDaySummary(year, month, day, coin):
+    def getAndInputDaySummary(self, year: int, month: int, day:int , coin:int):
 
-        bitcoin = get_bitcoin.MercadoBitcoin()
+        bitcoin = MercadoBitcoin()
         response = bitcoin.daySummary(year=year, month=month, day=day, coin=coin)
 
-        postgres = db_manipulation.CommandsModeling(db="bitcoin_data", user="airflow", host="localhost",
-                                                    password="airflow", port="5434", schema='public')
+        postgres = CommandsModeling(db="bitcoin_data", user="airflow", host="air_postgres_1",
+                                                    password="airflow", port="5432", schema='public')
         
         postgres.insertInto(response, table='bitcoin_history')
+
+
+if __name__ == '__main__':
+    bitcoin = DaySummaryDag()
+    bitcoin.getAndInputDaySummary(year=2022, month=7, day=16, coin='BTC')

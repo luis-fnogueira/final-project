@@ -1,3 +1,5 @@
 /.env
 /.logs
 /.plugins
+/__pycache__
+/air/dags/functions/__pycache__

@@ -3,6 +3,7 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, date, timedelta
 import sys
 
+
 # Appending our folder with functions
 sys.path.append('air/dags/functions')
 from functions.dag_functions import DaySummaryDag

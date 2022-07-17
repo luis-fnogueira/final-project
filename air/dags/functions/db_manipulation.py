@@ -37,8 +37,4 @@ class CommandsModeling(Postgres):
 
 
 if __name__ == '__main__':
-    postgres = CommandsModeling(db="bitcoin_data", user="airflow", host="localhost",
-                                password="airflow", port="5434", schema='public')
-    
-    data = {"date":"2022-07-15","opening":111219.96952424,"closing":112193.99983999,"lowest":111015.09208512,"highest":114500,"volume":"5127633.49018562","quantity":"45.34416209","amount":3725,"avg_price":113082.55029629}
-    postgres.insertInto(data=data, table='bitcoin_history')
+    pass
