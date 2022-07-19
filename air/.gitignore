@@ -1,5 +1,8 @@
 /.env
 /.logs
+/logs
 /.plugins
 /__pycache__
 /air/dags/functions/__pycache__
+/functions/construction.py
+/functions/tests/__pycache__

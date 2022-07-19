@@ -1,8 +1,8 @@
 /.env
-/nifi.txt
 /testes.py
 /.vscode
 /.pytest_cache
 /__pycache__
 /.pytest_cache/v/cache
 /.vscode
+/wo_airflow

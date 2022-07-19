@@ -3,13 +3,11 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, date, timedelta
 import sys
 
-
 # Appending our folder with functions
 sys.path.append('air/dags/functions')
 from functions.dag_functions import DaySummaryDag
 
 
-# Defining default_args as 2020/01/01
 default_args = {
     'start_date': datetime(2020, 1, 1)
 }

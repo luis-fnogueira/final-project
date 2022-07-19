@@ -7900,3 +7900,164 @@ ModuleNotFoundError: No module named 'get_bitcoin'
 [2022-07-17 22:26:15,639] {logging_mixin.py:115} INFO - [2022-07-17 22:26:15,638] {dag.py:2420} INFO - Sync 1 DAGs
 [2022-07-17 22:26:15,683] {logging_mixin.py:115} INFO - [2022-07-17 22:26:15,683] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
 [2022-07-17 22:26:15,738] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.181 seconds
+[2022-07-17 22:26:45,841] {processor.py:153} INFO - Started process (PID=1888) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:26:45,842] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:26:45,843] {logging_mixin.py:115} INFO - [2022-07-17 22:26:45,843] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:26:45,865] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:26:45,893] {logging_mixin.py:115} INFO - [2022-07-17 22:26:45,893] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:26:45,924] {logging_mixin.py:115} INFO - [2022-07-17 22:26:45,924] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:26:45,947] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.118 seconds
+[2022-07-17 22:27:16,030] {processor.py:153} INFO - Started process (PID=1917) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:16,056] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:27:16,057] {logging_mixin.py:115} INFO - [2022-07-17 22:27:16,057] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:16,072] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:16,100] {logging_mixin.py:115} INFO - [2022-07-17 22:27:16,100] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:27:16,134] {logging_mixin.py:115} INFO - [2022-07-17 22:27:16,134] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:27:16,157] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.131 seconds
+[2022-07-17 22:27:22,087] {processor.py:153} INFO - Started process (PID=1918) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:22,095] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:27:22,097] {logging_mixin.py:115} INFO - [2022-07-17 22:27:22,097] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:22,125] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:22,205] {logging_mixin.py:115} INFO - [2022-07-17 22:27:22,205] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:27:22,254] {logging_mixin.py:115} INFO - [2022-07-17 22:27:22,254] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:27:22,359] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.277 seconds
+[2022-07-17 22:27:23,233] {processor.py:153} INFO - Started process (PID=1919) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:23,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:27:23,237] {logging_mixin.py:115} INFO - [2022-07-17 22:27:23,237] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:23,267] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:23,311] {logging_mixin.py:115} INFO - [2022-07-17 22:27:23,310] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:27:23,357] {logging_mixin.py:115} INFO - [2022-07-17 22:27:23,357] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:27:23,709] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.493 seconds
+[2022-07-17 22:27:26,403] {processor.py:153} INFO - Started process (PID=1920) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:26,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:27:26,405] {logging_mixin.py:115} INFO - [2022-07-17 22:27:26,404] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:26,418] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:26,450] {logging_mixin.py:115} INFO - [2022-07-17 22:27:26,450] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:27:26,486] {logging_mixin.py:115} INFO - [2022-07-17 22:27:26,485] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:27:26,520] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.121 seconds
+[2022-07-17 22:27:56,622] {processor.py:153} INFO - Started process (PID=1949) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:56,640] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:27:56,641] {logging_mixin.py:115} INFO - [2022-07-17 22:27:56,640] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:56,689] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:27:56,834] {logging_mixin.py:115} INFO - [2022-07-17 22:27:56,834] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:27:56,951] {logging_mixin.py:115} INFO - [2022-07-17 22:27:56,951] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:27:57,062] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.458 seconds
+[2022-07-17 22:28:27,769] {processor.py:153} INFO - Started process (PID=1970) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:28:27,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:28:27,770] {logging_mixin.py:115} INFO - [2022-07-17 22:28:27,770] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:28:27,791] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:28:27,830] {logging_mixin.py:115} INFO - [2022-07-17 22:28:27,830] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:28:27,882] {logging_mixin.py:115} INFO - [2022-07-17 22:28:27,881] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:28:27,932] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.169 seconds
+[2022-07-17 22:28:58,067] {processor.py:153} INFO - Started process (PID=1989) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:28:58,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:28:58,080] {logging_mixin.py:115} INFO - [2022-07-17 22:28:58,080] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:28:58,114] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:28:58,167] {logging_mixin.py:115} INFO - [2022-07-17 22:28:58,167] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:28:58,198] {logging_mixin.py:115} INFO - [2022-07-17 22:28:58,198] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:28:58,223] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.166 seconds
+[2022-07-17 22:29:28,341] {processor.py:153} INFO - Started process (PID=2017) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:29:28,343] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:29:28,345] {logging_mixin.py:115} INFO - [2022-07-17 22:29:28,345] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:29:28,383] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:29:28,423] {logging_mixin.py:115} INFO - [2022-07-17 22:29:28,423] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:29:28,454] {logging_mixin.py:115} INFO - [2022-07-17 22:29:28,454] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:29:28,477] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.148 seconds
+[2022-07-17 22:29:58,561] {processor.py:153} INFO - Started process (PID=2037) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:29:58,582] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:29:58,583] {logging_mixin.py:115} INFO - [2022-07-17 22:29:58,583] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:29:58,595] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:29:58,625] {logging_mixin.py:115} INFO - [2022-07-17 22:29:58,625] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:29:58,668] {logging_mixin.py:115} INFO - [2022-07-17 22:29:58,668] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:29:58,698] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.141 seconds
+[2022-07-17 22:30:28,760] {processor.py:153} INFO - Started process (PID=2057) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:30:28,762] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:30:28,764] {logging_mixin.py:115} INFO - [2022-07-17 22:30:28,764] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:30:28,812] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:30:28,858] {logging_mixin.py:115} INFO - [2022-07-17 22:30:28,858] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:30:28,892] {logging_mixin.py:115} INFO - [2022-07-17 22:30:28,892] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:30:28,919] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.172 seconds
+[2022-07-17 22:30:59,880] {processor.py:153} INFO - Started process (PID=2086) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:30:59,922] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:30:59,925] {logging_mixin.py:115} INFO - [2022-07-17 22:30:59,924] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:30:59,972] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:31:00,053] {logging_mixin.py:115} INFO - [2022-07-17 22:31:00,052] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:31:00,090] {logging_mixin.py:115} INFO - [2022-07-17 22:31:00,090] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:31:00,179] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.311 seconds
+[2022-07-17 22:31:31,042] {processor.py:153} INFO - Started process (PID=2106) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:31:31,043] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:31:31,045] {logging_mixin.py:115} INFO - [2022-07-17 22:31:31,045] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:31:31,069] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:31:31,118] {logging_mixin.py:115} INFO - [2022-07-17 22:31:31,118] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:31:31,173] {logging_mixin.py:115} INFO - [2022-07-17 22:31:31,173] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:31:31,426] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.399 seconds
+[2022-07-17 22:32:02,165] {processor.py:153} INFO - Started process (PID=2136) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:32:02,185] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:32:02,186] {logging_mixin.py:115} INFO - [2022-07-17 22:32:02,186] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:32:02,202] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:32:02,240] {logging_mixin.py:115} INFO - [2022-07-17 22:32:02,240] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:32:02,286] {logging_mixin.py:115} INFO - [2022-07-17 22:32:02,286] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:32:02,320] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.160 seconds
+[2022-07-17 22:32:32,347] {processor.py:153} INFO - Started process (PID=2156) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:32:32,347] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:32:32,348] {logging_mixin.py:115} INFO - [2022-07-17 22:32:32,347] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:32:32,359] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:32:32,389] {logging_mixin.py:115} INFO - [2022-07-17 22:32:32,389] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:32:32,423] {logging_mixin.py:115} INFO - [2022-07-17 22:32:32,423] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:32:32,453] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.110 seconds
+[2022-07-17 22:33:02,548] {processor.py:153} INFO - Started process (PID=2176) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:33:02,584] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:33:02,585] {logging_mixin.py:115} INFO - [2022-07-17 22:33:02,585] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:33:02,620] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:33:02,649] {logging_mixin.py:115} INFO - [2022-07-17 22:33:02,649] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:33:02,703] {logging_mixin.py:115} INFO - [2022-07-17 22:33:02,703] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:33:02,740] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.196 seconds
+[2022-07-17 22:33:32,763] {processor.py:153} INFO - Started process (PID=2205) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:33:32,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:33:32,764] {logging_mixin.py:115} INFO - [2022-07-17 22:33:32,764] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:33:32,776] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:33:32,806] {logging_mixin.py:115} INFO - [2022-07-17 22:33:32,806] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:33:32,836] {logging_mixin.py:115} INFO - [2022-07-17 22:33:32,836] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:33:32,860] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.100 seconds
+[2022-07-17 22:34:02,926] {processor.py:153} INFO - Started process (PID=2226) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:34:02,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:34:02,942] {logging_mixin.py:115} INFO - [2022-07-17 22:34:02,942] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:34:02,968] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:34:03,007] {logging_mixin.py:115} INFO - [2022-07-17 22:34:03,006] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:34:03,051] {logging_mixin.py:115} INFO - [2022-07-17 22:34:03,051] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:34:03,149] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.231 seconds
+[2022-07-17 22:34:34,028] {processor.py:153} INFO - Started process (PID=2255) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:34:34,029] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:34:34,030] {logging_mixin.py:115} INFO - [2022-07-17 22:34:34,030] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:34:34,060] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:34:34,088] {logging_mixin.py:115} INFO - [2022-07-17 22:34:34,088] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:34:34,118] {logging_mixin.py:115} INFO - [2022-07-17 22:34:34,118] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:34:34,151] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.133 seconds
+[2022-07-17 22:35:05,147] {processor.py:153} INFO - Started process (PID=2274) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:35:05,166] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:35:05,167] {logging_mixin.py:115} INFO - [2022-07-17 22:35:05,167] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:35:05,195] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:35:05,223] {logging_mixin.py:115} INFO - [2022-07-17 22:35:05,223] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:35:05,253] {logging_mixin.py:115} INFO - [2022-07-17 22:35:05,253] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:35:05,273] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.137 seconds
+[2022-07-17 22:35:36,268] {processor.py:153} INFO - Started process (PID=2304) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:35:36,268] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:35:36,269] {logging_mixin.py:115} INFO - [2022-07-17 22:35:36,269] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:35:36,293] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:35:36,346] {logging_mixin.py:115} INFO - [2022-07-17 22:35:36,345] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:35:36,410] {logging_mixin.py:115} INFO - [2022-07-17 22:35:36,409] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:35:36,470] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.208 seconds
+[2022-07-17 22:36:07,361] {processor.py:153} INFO - Started process (PID=2322) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:36:07,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:36:07,390] {logging_mixin.py:115} INFO - [2022-07-17 22:36:07,390] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:36:07,407] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:36:07,438] {logging_mixin.py:115} INFO - [2022-07-17 22:36:07,438] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:36:07,469] {logging_mixin.py:115} INFO - [2022-07-17 22:36:07,469] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:36:07,556] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.200 seconds
+[2022-07-17 22:36:37,608] {processor.py:153} INFO - Started process (PID=2342) to work on /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:36:37,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/projeto_api.py for tasks to queue
+[2022-07-17 22:36:37,611] {logging_mixin.py:115} INFO - [2022-07-17 22:36:37,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:36:37,632] {processor.py:651} INFO - DAG(s) dict_keys(['bitcoin']) retrieved from /opt/airflow/dags/projeto_api.py
+[2022-07-17 22:36:37,660] {logging_mixin.py:115} INFO - [2022-07-17 22:36:37,660] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-17 22:36:37,690] {logging_mixin.py:115} INFO - [2022-07-17 22:36:37,690] {dag.py:2972} INFO - Setting next_dagrun for bitcoin to 2022-07-17T00:00:00+00:00, run_after=2022-07-18T00:00:00+00:00
+[2022-07-17 22:36:37,719] {processor.py:161} INFO - Processing /opt/airflow/dags/projeto_api.py took 0.122 seconds

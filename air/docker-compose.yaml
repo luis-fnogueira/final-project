@@ -85,8 +85,6 @@ services:
       interval: 5s
       retries: 5
     restart: always
-    networks:
-      - rede_projeto
     ports:
       - "5434:5432"
 
@@ -100,8 +98,7 @@ services:
       timeout: 30s
       retries: 50
     restart: always
-    networks:
-      - rede_projeto
+    
 
   airflow-webserver:
     <<: *airflow-common
@@ -118,8 +115,7 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
-    networks:
-      - rede_projeto
+    
 
   airflow-scheduler:
     <<: *airflow-common
@@ -134,8 +130,7 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
-    networks:
-      - rede_projeto
+    
 
   airflow-worker:
     <<: *airflow-common
@@ -157,8 +152,7 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
-    networks:
-      - rede_projeto
+    
 
   airflow-triggerer:
     <<: *airflow-common
@@ -173,8 +167,7 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
-    networks:
-      - rede_projeto
+    
 
   airflow-init:
     <<: *airflow-common
@@ -253,8 +246,7 @@ services:
     user: "0:0"
     volumes:
       - .:/sources
-    networks:
-      - rede_projeto
+    
 
   airflow-cli:
     <<: *airflow-common
@@ -268,8 +260,7 @@ services:
       - bash
       - -c
       - airflow
-    networks:
-      - rede_projeto
+    
 
   # You can enable flower by adding "--profile flower" option e.g. docker-compose --profile flower up
   # or by explicitly targeted on the command line e.g. docker-compose up flower.
@@ -291,13 +282,21 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
-    networks:
-      - rede_projeto
+    
+  
+  metabase:
+    image: metabase/metabase
+    container_name: metabase
+    environment:
+      - MB_DB_FILE=/metabase-data/metabase.db
+    ports: 
+      - "3000:3000"
+    volumes:
+      - data:/metabase-data/metabase.db
+
 
 volumes:
   postgres-db-volume:
 
-networks:
-  rede_projeto:
-    name: rede_projeto
-    external: true
+  data:
+    driver: local

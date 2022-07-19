@@ -24,5 +24,4 @@ class DaySummaryDag():
 
 
 if __name__ == '__main__':
-    bitcoin = DaySummaryDag()
-    bitcoin.getAndInputDaySummary(year=2022, month=7, day=16, coin='BTC')
+    pass
