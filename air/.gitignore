@@ -6,3 +6,7 @@
 /air/dags/functions/__pycache__
 /functions/construction.py
 /functions/tests/__pycache__
+/__pycache__
+/functions/__pycache__
+/functions/tests/__pycache__
+/functions/tests/.pytest_cache
