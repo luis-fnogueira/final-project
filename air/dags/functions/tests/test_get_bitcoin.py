@@ -10,13 +10,6 @@ sys.path.append('air/dags/functions')
 from get_bitcoin import GetResponse
 
 
-@pytest.fixture()
-# @patch("air.dags.functions.get_bitcoin.GetResponse.getDeserialize", set())
-def fixture_get_deserialize():
-    response = GetResponse()
-    return response.getDeserialize("valid_endpoint")
-
-
 def mocked_requests_get(*args, **kwargs):
     class MockResponse(requests.Response):
         def __init__(self, json_data, status_code):
