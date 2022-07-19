@@ -14,15 +14,17 @@ class GetResponse():
 
 class MercadoBitcoin(GetResponse):
 
-    beginningOfUrl = 'https://www.mercadobitcoin.net/api'
+    def __init__(self) -> None:
+        #super().__init__()
+        self.beginningOfUrl = 'https://www.mercadobitcoin.net/api'
 
 
     # This method is to get generally from the API
     def standardGet(self, coin: str, method: str):
 
-        URL = f'{self.beginningOfUrl}/{coin}/{method}/'
+        self.URL = f'{self.beginningOfUrl}/{coin}/{method}/'
         
-        urlGet = super().getDeserialize(URL)
+        urlGet = super().getDeserialize(self.URL)
 
         return urlGet
 
@@ -32,9 +34,9 @@ class MercadoBitcoin(GetResponse):
         
         method = 'day-summary'
 
-        URL = f'{self.beginningOfUrl}/{coin}/{method}/{year}/{month}/{day}'
+        self.URL = f'{self.beginningOfUrl}/{coin}/{method}/{year}/{month}/{day}'
 
-        urlGet = super().getDeserialize(URL)
+        urlGet = super().getDeserialize(self.URL)
 
         return urlGet
 
