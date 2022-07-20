@@ -8,7 +8,7 @@ import psycopg2
 
 @pytest.fixture()
 def fixture_db_conn():
-    return "SELECT date FROM public.bitcoin_history WHERE date = '2022-07-10"
+    return "SELECT 'amount' FROM public.bitcoin_history WHERE 'amount' = %s"
 
 
 class TestClassPostgres():
@@ -18,16 +18,18 @@ class TestClassPostgres():
     "db, user, host, password, port, schema, expected",
         [
         ("bitcoin_data", "airflow", "localhost", "airflow", "5434",
-        "public", "2022-07-10")
+        "public", 2602)
         ]
     )
-    def test__init__(self, db, user, host, password, port, schema, expected):
+    def test__init__(self, db, user, host, password, port, schema, expected, 
+                    fixture_db_conn):
         
 
         conn = Postgres(db=db, user=user, host=host, password=password, port=
-        port, schema=schema)
+                        port, schema=schema)
 
-        actual = conn.cur.execute(fixture_db_conn)
+        conn.cur.execute(fixture_db_conn, (2602,))
+        actual = conn.cur.fetchall()
 
         assert actual == expected
 
