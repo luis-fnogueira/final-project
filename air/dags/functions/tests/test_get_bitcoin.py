@@ -8,7 +8,6 @@ import requests
 # Appending our folder with functions
 sys.path.append('air/dags/functions')
 from get_bitcoin import GetResponse, MercadoBitcoin
-#from get_bitcoin import MercadoBitcoin
 
 
 """ 
@@ -41,12 +40,14 @@ class TestGetResponse(TestCase):
     @patch("get_bitcoin.GetResponse.getDeserialize", side_effect=mocked_requests_get)
     def testGetDeserialize(self, mock_getDeserialize):
 
+        expected = {'foo':'bar'}
+
         get_response = GetResponse()
         response = get_response.getDeserialize("valid_endpoint")
         
         response_json = response.json()
         
-        assert response_json == {'foo':'bar'}
+        assert response_json == expected
 
 
 class TestMercadoBitcoin():
@@ -66,5 +67,14 @@ class TestMercadoBitcoin():
         assert actual.URL == expected
 
 
-if __name__ == "__main__":
-    pass
+    @pytest.mark.parametrize(
+        "year, month, day, coin, expected",
+        [
+            (2022, 7, 15, "BTC", "https://www.mercadobitcoin.net/api/BTC/day-summary/2022/7/15"),
+            (2022, 7, 10, "BTC", "https://www.mercadobitcoin.net/api/BTC/day-summary/2022/7/10")
+        ]
+    )
+    def test_daySummary(self, year, month, day, coin, expected):
+        actual = MercadoBitcoin()
+        actual.daySummary(year, month, day, coin)
+        assert actual.URL == expected

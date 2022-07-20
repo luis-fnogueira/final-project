@@ -16,7 +16,7 @@ class Postgres():
         self.conn = psycopg2.connect(
             database=db, host=host, port=port, password=password, user=user)
         self.cur = self.conn.cursor()
-
+        
 
 class CommandsModeling(Postgres):
 
