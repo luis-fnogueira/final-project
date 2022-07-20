@@ -18,7 +18,6 @@ class Postgres():
         self.cur = self.conn.cursor()
 
 
-
 class CommandsModeling(Postgres):
 
 

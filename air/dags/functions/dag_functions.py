@@ -18,7 +18,7 @@ class DaySummaryDag():
         response = bitcoin.daySummary(year=year, month=month, day=day, coin=coin)
 
         postgres = CommandsModeling(db="bitcoin_data", user="airflow", host="air_postgres_1",
-                                                    password="airflow", port="5432", schema='public')
+                                    password="airflow", port="5432", schema='public')
         
         postgres.insertInto(response, table='bitcoin_history')
 
