@@ -1,13 +1,8 @@
 import sys
-
-from defer import return_value
-from traitlets import TraitType
 # Appending our folder with functions
 sys.path.append('air/dags/functions')
 
-from db_manipulation import DmlCommands, Postgres
-import pytest
-import psycopg2
+from functions.db_manipulation import DmlCommands, Postgres
 from unittest.mock import patch
 
 

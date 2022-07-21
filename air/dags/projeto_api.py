@@ -25,7 +25,8 @@ with DAG('bitcoin', schedule_interval='@daily', default_args=default_args, catch
     get_api = PythonOperator(
         task_id='get_api',
         python_callable=btc.getAndInputDaySummary,
-        op_kwargs={'year': yesterday.year, 'month': yesterday.month, 'day': yesterday.day, 'coin': 'BTC'}
+        op_kwargs={'year': yesterday.year, 'month': yesterday.month,
+                   'day': yesterday.day, 'coin': 'BTC'}
         )
 
 
