@@ -1,45 +1,37 @@
 import requests
 
 
-class GetResponse():
+class GetResponse:
 
     def getDeserialize(self, url: str):
-        
+
         ApiResponse = requests.get(f'{url}')
-        
+
         toJson = ApiResponse.json()
-        
+
         return toJson
 
 
 class MercadoBitcoin(GetResponse):
 
     def __init__(self) -> None:
-        #super().__init__()
+        # super().__init__()
         self.beginningOfUrl = 'https://www.mercadobitcoin.net/api'
-
+        GetResponse.__init__(self)
 
     # This method is to get generally from the API
     def standardGet(self, coin: str, method: str):
 
         self.URL = f'{self.beginningOfUrl}/{coin}/{method}/'
-        
-        urlGet = super().getDeserialize(self.URL)
 
-        return urlGet
+        return self.getDeserialize(url=self.URL)
 
-    
     # This method is to get specifically from the API Day Summary
+
     def daySummary(self, year: int, month: int, day: int, coin: str):
-        
-        method = 'day-summary'
 
-        self.URL = f'{self.beginningOfUrl}/{coin}/{method}/{year}/{month}/{day}'
+        METHOD = 'day-summary'
 
-        urlGet = super().getDeserialize(self.URL)
+        self.URL = f'{self.beginningOfUrl}/{coin}/{METHOD}/{year}/{month}/{day}'
 
-        return urlGet
-
-
-if __name__ == '__main__':
-    pass
+        return self.getDeserialize(url=self.URL)
