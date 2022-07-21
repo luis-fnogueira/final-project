@@ -6,3 +6,4 @@
 /.pytest_cache/v/cache
 /.vscode
 /wo_airflow
+/.coverage

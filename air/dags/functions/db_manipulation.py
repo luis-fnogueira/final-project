@@ -18,7 +18,7 @@ class Postgres():
         self.cur = self.conn.cursor()
 
 
-class CommandsModeling(Postgres):
+class DmlCommands(Postgres):
 
 
     # In this method we extract the values from JSON and input it into DB. 
@@ -29,9 +29,9 @@ class CommandsModeling(Postgres):
         numberOfColumnsMinusOne = len(values) - 1
         valuesParametersMinusOne = '%s, ' * numberOfColumnsMinusOne
 
-        insertQuery = f"INSERT INTO {self.schema}.{table} VALUES ({valuesParametersMinusOne}%s)  "
+        self.insertQuery = f"INSERT INTO {self.schema}.{table} VALUES ({valuesParametersMinusOne}%s)  "
 
-        self.cur.execute(insertQuery, values)
+        self.cur.execute(self.insertQuery, values)
 
         self.conn.commit()
 

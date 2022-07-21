@@ -1,10 +1,11 @@
 import sys
-from typing import Type
 
-from requests import patch
+from defer import return_value
+from traitlets import TraitType
 # Appending our folder with functions
 sys.path.append('air/dags/functions')
-from db_manipulation import Postgres, CommandsModeling
+
+from db_manipulation import DmlCommands, Postgres
 import pytest
 import psycopg2
 from unittest.mock import patch
@@ -51,3 +52,20 @@ class TestClassPostgres():
 
         assert None == expected
 
+
+class TestDmlCommands():
+    
+
+    def test_insertInto(self):
+        
+        data = {"date":"2022-07-19","opening":104541.21927156,"closing":106707.92423624,
+        "lowest":98206.0486193,"highest":110000,"volume":"15152834.92884294",
+        "quantity":"149.84572768","amount":11174,"avg_price":101122.90262423}
+
+        table = "bitcoin_history"
+
+        insert_into = DmlCommands("bitcoin_data", "airflow", "localhost", 
+                                  "airflow", "5434", "public")
+        
+        insert_into.insertInto(data, table)
+        
