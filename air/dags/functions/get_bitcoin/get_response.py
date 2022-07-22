@@ -10,6 +10,4 @@ class GetResponse:
 
         ApiResponse = requests.get(f'{url}')
 
-        toJson = ApiResponse.json()
-
-        return toJson
+        return ApiResponse.json()
