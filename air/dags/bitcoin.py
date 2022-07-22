@@ -9,7 +9,8 @@ from datetime import datetime, date, timedelta
 
 
 default_args = {
-    'start_date': datetime(2020, 1, 1)
+    'start_date': datetime(2020, 1, 1),
+    'email': ['luisfalmeidanogueira@gmail.com']
 }
 
 # Creating "yesterday" object. It contains yesterday's date.
