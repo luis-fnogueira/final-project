@@ -1,7 +1,7 @@
 # ELT Bitcoin's data
 
 ## Goal
- The purpose of this project is to extract bitcoin's data from Mercado Bitcoin's API and save it in a relational database.
+ The purpose of this project is to extract bitcoin's data from Mercado Bitcoin's API and save it in a relational database. It was developed for my final project in Business Intelligence postgraduation on [XP Educação](https://www.xpeducacao.com.br/).
 
 
 ## Mercado Bitcoin
