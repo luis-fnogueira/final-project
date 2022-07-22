@@ -7,3 +7,4 @@
 /.vscode
 /wo_airflow
 /.coverage
+**/__pycache__/
