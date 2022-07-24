@@ -33,7 +33,8 @@ op_kwargs = {'year': yesterday.year, 'month': yesterday.month,
 # Instatiating class
 btc = DaySummaryDag()
 
-with DAG('bitcoin', schedule_interval='@daily', default_args=default_args, catchup=False) as dag:
+with DAG('bitcoin', schedule_interval='@daily', default_args=default_args,
+         catchup=False, doc_md=doc_md) as dag:
 
     get_api = PythonOperator(
         task_id='get_api',
