@@ -1,7 +1,3 @@
-import sys
-# Appending our folder with functions
-sys.path.append('air/dags/functions')
-
 from unittest.mock import patch
 from functions.db_manipulation.dml_commands import DmlCommands
 from functions.db_manipulation.postgres import Postgres

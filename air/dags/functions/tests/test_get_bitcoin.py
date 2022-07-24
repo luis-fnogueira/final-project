@@ -1,13 +1,8 @@
-from air.functions.get_bitcoin.mercado_bitcoin import GetResponse, MercadoBitcoin
+from functions.get_bitcoin.mercado_bitcoin import GetResponse, MercadoBitcoin
 import pytest
 from unittest.mock import patch
 from unittest import TestCase
-import sys
 import requests
-
-
-# Appending our folder with functions
-sys.path.append('air/dags/functions')
 
 
 """
