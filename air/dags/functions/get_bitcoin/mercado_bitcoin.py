@@ -1,6 +1,3 @@
-# Appending our folder with air
-import sys
-sys.path.append('/air/dags/functions/')
 from functions.get_bitcoin.get_response import GetResponse
 
 

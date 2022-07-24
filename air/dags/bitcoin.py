@@ -8,12 +8,21 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, date, timedelta
 
 
+doc_md = """
+### DAG
+### Purpose
+This dag gets data from Mercado Bitcoin API and inputs into a database. The data
+are fetched daily. The API only makes available historical data i.e., it doesn't show
+current day's data.
+"""
+
+
 default_args = {
     'start_date': datetime(2020, 1, 1),
     'email': ['luisfalmeidanogueira@gmail.com']
 }
 
-# Creating "yesterday" object. It contains yesterday's date.
+# Yesterday's date.
 today = date.today()
 yesterday = today - timedelta(days=1)
 
