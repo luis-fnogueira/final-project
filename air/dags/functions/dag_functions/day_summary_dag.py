@@ -1,8 +1,3 @@
-# Appending our folder with air
-import sys
-sys.path.append('/air/dags/functions/')
-
-
 from functions.get_bitcoin.mercado_bitcoin import MercadoBitcoin
 from functions.db_manipulation.dml_commands import DmlCommands
 

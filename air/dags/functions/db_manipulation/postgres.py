@@ -1,7 +1,3 @@
-# Appending our folder with air
-import sys
-sys.path.append('/air/dags/functions/')
-
 import psycopg2
 
 
