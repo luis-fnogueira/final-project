@@ -1,4 +1,7 @@
-use `projeto-pos`;
+/*
+This is the query used to create bitcoin_history table. This table is the one
+where data that is get from the API is sent.
+*/
 
 CREATE TABLE bitcoin_history (
 date_summary DATE PRIMARY KEY NOT NULL,

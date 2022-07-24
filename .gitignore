@@ -7,4 +7,5 @@
 /.vscode
 /wo_airflow
 /.coverage
-**/__pycache__/
+**/__pycache__
+/sql/backup
