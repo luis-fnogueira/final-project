@@ -20,8 +20,8 @@ def mocked_connection(*args):
             self.port = port
             self.schema = schema
 
-    valid_return = ("bitcoin_data", "airflow", "air_postgres_1",
-                    "airflow", "5432", "public")
+    valid_return = ("bitcoin_data", "airflow", "localhost",
+                    "airflow", "5434", "public")
 
     if args == valid_return:
         return None
@@ -36,35 +36,34 @@ class TestClassPostgres():
     conn object gets the correct arguments it will return None and then the test
     will pass
     """
-    @patch("db_manipulation.Postgres.__init__", side_effect=mocked_connection)
+    @patch("functions.db_manipulation.postgres.Postgres", side_effect=mocked_connection)
     def test__init__(self, mocked_connection):
 
         expected = None
 
-        conn = Postgres("bitcoin_data", "airflow", "air_postgres_1",
-                        "airflow", "5432", "public")
+        conn = Postgres("bitcoin_data", "airflow", "localhost",
+                        "airflow", "5434", "public")
 
         assert None is expected
 
 
 class TestDmlCommands():
 
-    def test_insertInto(self):
+    def test_insert_into(self):
 
-        data = {
-            "date": "2022-07-19",
-            "opening": 104541.21927156,
-            "closing": 106707.92423624,
-            "lowest": 98206.0486193,
-            "highest": 110000,
-            "volume": "15152834.92884294",
-            "quantity": "149.84572768",
-            "amount": 11174,
-            "avg_price": 101122.90262423}
+        data = {"date":"2022-07-24",
+                "opening":123644.45861845,
+                "closing":121148.14895181,
+                "lowest":120784.99444257,
+                "highest":126871.09910008,
+                "volume":"2479581.20722043",
+                "quantity":"19.94267651",
+                "amount":2935,
+                "avg_price":124335.42739246}
 
         table = "bitcoin_history"
 
         insert_into = DmlCommands("bitcoin_data", "airflow", "localhost",
                                   "airflow", "5434", "public")
 
-        insert_into.insertInto(data, table)
+        insert_into.insert_into(data, table)

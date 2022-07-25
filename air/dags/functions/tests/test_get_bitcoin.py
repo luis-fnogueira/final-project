@@ -1,4 +1,5 @@
-from functions.get_bitcoin.mercado_bitcoin import GetResponse, MercadoBitcoin
+from functions.get_bitcoin.mercado_bitcoin import GetResponse
+from functions.get_bitcoin.mercado_bitcoin import MercadoBitcoin
 import pytest
 from unittest.mock import patch
 from unittest import TestCase
@@ -33,7 +34,7 @@ def mocked_requests_get(*args, **kwargs):
 
 class TestGetResponse(TestCase):
 
-    @patch("get_bitcoin.GetResponse.getDeserialize",
+    @patch("functions.get_bitcoin.get_response.GetResponse.getDeserialize",
            side_effect=mocked_requests_get)
     def testGetDeserialize(self, mock_getDeserialize):
 

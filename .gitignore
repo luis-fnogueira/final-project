@@ -9,3 +9,5 @@
 /.coverage
 **/__pycache__
 /sql/backup
+**/.pytest_cache
+**/__init__.py

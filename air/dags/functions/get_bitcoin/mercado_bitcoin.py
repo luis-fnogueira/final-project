@@ -14,7 +14,7 @@ class MercadoBitcoin(GetResponse):
 
         self.URL = f'{self.beginningOfUrl}/{coin}/{method}/'
 
-        return self.get_deserialize(url=self.URL)
+        return self.getDeserialize(url=self.URL)
 
     # This method is to get specifically from the API Day Summary
     def daySummary(self, year: int, month: int, day: int, coin: str):
@@ -23,4 +23,4 @@ class MercadoBitcoin(GetResponse):
 
         self.URL = f'{self.beginningOfUrl}/{coin}/{METHOD}/{year}/{month}/{day}'
 
-        return self.get_deserialize(url=self.URL)
+        return self.getDeserialize(url=self.URL)

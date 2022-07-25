@@ -3,7 +3,7 @@ import requests
 
 class GetResponse:
 
-    def get_deserialize(self, url: str):
+    def getDeserialize(self, url: str):
 
         api_response = requests.get(f'{url}')
 
