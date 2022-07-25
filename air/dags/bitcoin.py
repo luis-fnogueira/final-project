@@ -26,7 +26,7 @@ yesterday = today - timedelta(days=1)
 op_kwargs = {'year': yesterday.year, 'month': yesterday.month,
             'day': yesterday.day, 'coin': 'BTC'}
 
-# Instatiating class
+# Instatiating class to use getAndInputDaySummary method
 btc = DaySummaryDag()
 
 with DAG('bitcoin', schedule_interval='@daily', default_args=default_args,
