@@ -1,4 +1,4 @@
-from get_response import GetResponse
+from functions.get_bitcoin.get_response import GetResponse
 
 
 class MercadoBitcoin(GetResponse):
