@@ -9,7 +9,7 @@ class DaySummaryDag():
             year: int,
             month: int,
             day: int,
-            coin: int):
+            coin: int) -> None:
 
         bitcoin = MercadoBitcoin()
         response = bitcoin.daySummary(
