@@ -11,3 +11,4 @@
 /sql/backup
 **/.pytest_cache
 **/__init__.py
+/media

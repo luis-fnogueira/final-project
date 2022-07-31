@@ -18,4 +18,4 @@ For data visualization it's utilized Metabase, as SGDB it's used Postgres and fi
 # Architecture
 The image below explains how the project was designed.
 
-![image](media/architecture.png)
+[![image](https://i.imgur.com/yMFxsqJ.png)](https://imgur.com/a/4IOJgz9)
