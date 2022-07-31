@@ -24,4 +24,4 @@ The image below explains how the project was designed.
 
 I am Luis Nogueira, currently I'm a HR Data Analyst at Clicksign.
 
-You can contact me on my [Linkedin](https://www.linkedin.com/in/luis-fnogueira/)
+You can contact me on my [LinkedIn](https://www.linkedin.com/in/luis-fnogueira/)
