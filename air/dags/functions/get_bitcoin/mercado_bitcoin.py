@@ -3,24 +3,46 @@ from functions.get_bitcoin.get_response import GetResponse
 
 class MercadoBitcoin(GetResponse):
 
-    # Initializing the class with the standard URL and the class GetResponse
     def __init__(self) -> None:
 
-        self.__ENDPOINT = 'https://www.mercadobitcoin.net/api'
+        """
+        Initializing the class with standard endpoint and the class GetResponse
+        """
+
         GetResponse.__init__(self)
+        self.__ENDPOINT = 'https://www.mercadobitcoin.net/api'
+        self.__URL = ""
 
-    # This method is to get generally from the API
-    def standardGet(self, coin: str, method: str) -> dict:
+    def standard_get(self, coin: str, method: str) -> dict:
 
-        self.URL = f'{self.__ENDPOINT}/{coin}/{method}/'
+        """
+        This method is to get generally from the API
+        Arguments:
+            coin: string
+            method: string
+        Returns:
+            dictionary
+        """
 
-        return self.getDeserialize(url=self.URL)
+        self.__URL = f'{self.__ENDPOINT}/{coin}/{method}/'
 
-    # This method is to get specifically from the API Day Summary
-    def daySummary(self, year: int, month: int, day: int, coin: str) -> dict:
+        return self.get_deserialize(url=self.__URL)
+
+    def day_summary(self, year: int, month: int, day: int, coin: str) -> dict:
+
+        """
+        This method is to get specifically from the API Day Summary
+        Arguments:
+            year: integer
+            month: integer
+            day: integer
+            coin: string
+        Returns:
+            dictionary
+        """
 
         METHOD = 'day-summary'
 
-        self.URL = f'{self.__ENDPOINT}/{coin}/{METHOD}/{year}/{month}/{day}'
+        self.__URL = f'{self.__ENDPOINT}/{coin}/{METHOD}/{year}/{month}/{day}'
 
-        return self.getDeserialize(url=self.URL)
+        return self.get_deserialize(url=self.__URL)

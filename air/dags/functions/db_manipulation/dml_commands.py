@@ -3,8 +3,19 @@ from functions.db_manipulation.postgres import Postgres
 
 class DmlCommands(Postgres):
 
-    # In this method we extract the values from JSON and input it into DB.
     def insert_into(self, data: set, table: str) -> None:
+        """
+        Extract the values from dict and input it into DB.
+        An JSON must be deserialized before calling this function
+
+        Arguments:
+            data: a dictionary containing the values
+            table: a string (table where data should be sent)
+
+        Returns:
+            None
+            It executes a query inputting data into a database and commit
+        """
 
         values = tuple(data.values()) 
 

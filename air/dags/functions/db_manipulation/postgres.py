@@ -4,9 +4,12 @@ from requests import post
 
 class Postgres:
 
-    # Constructor method initializing the connection to DB and creating cursor
+    
     def __init__(self, db: str, user: str, host: str, password: str, port: str,
                  schema: str) -> None:
+        """
+        Constructor method initializing the connection to DB and creating cursor
+        """
 
         self.__db = db
         self.__user = user
@@ -19,7 +22,7 @@ class Postgres:
             database=db, host=host, port=port, password=password, user=user)
         self.cur = self.conn.cursor()
 
-    # Getters of attributes
+    # Getters
 
     @property
     def db(self):

@@ -10,8 +10,6 @@ import requests
 This is function that mocks the response from the API. If the value passed is valid
 it returns 200 and a set {"foo": "bar"}, otherwise it returns an error and no JSON
 """
-
-
 def mocked_requests_get(*args, **kwargs):
     class MockResponse(requests.Response):
         def __init__(self, json_data, status_code):
@@ -34,9 +32,9 @@ def mocked_requests_get(*args, **kwargs):
 
 class TestGetResponse(TestCase):
 
-    @patch("functions.get_bitcoin.get_response.GetResponse.getDeserialize",
+    @patch("functions.get_bitcoin.get_response.GetResponse.get_deserialize",
            side_effect=mocked_requests_get)
-    def testGetDeserialize(self, mock_getDeserialize):
+    def testget_deserialize(self, mock_getDeserialize):
 
         expected = {'foo': 'bar'}
 
@@ -57,7 +55,7 @@ class TestMercadoBitcoin():
                               ("ETH",
                                "ticker",
                                  "https://www.mercadobitcoin.net/api/ETH/ticker/")])
-    def test_standardGet(self, coin, method, expected):
+    def test_standard_get(self, coin, method, expected):
 
         actual = MercadoBitcoin()
         actual.standardGet(coin=coin, method=method)
@@ -74,7 +72,7 @@ class TestMercadoBitcoin():
                                10,
                                "BTC",
                                  "https://www.mercadobitcoin.net/api/BTC/day-summary/2022/7/10")])
-    def test_daySummary(self, year, month, day, coin, expected):
+    def test_day_summary(self, year, month, day, coin, expected):
         actual = MercadoBitcoin()
         actual.daySummary(year, month, day, coin)
         assert actual.URL == expected

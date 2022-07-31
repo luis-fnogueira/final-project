@@ -1,10 +1,10 @@
-from functions.dag_functions.day_summary_dag import DaySummaryDag
 from airflow import DAG
-from airflow.operators.python import PythonOperator
 from datetime import datetime, date, timedelta
+from airflow.operators.python import PythonOperator
+from functions.dag_functions.day_summary_dag import DaySummaryDag
 
 
-doc_md = """
+DOC_MD = """
 ### DAG
 ### Purpose
 This dag gets data from Mercado Bitcoin API and inputs into a database. The data
@@ -13,28 +13,37 @@ current day's data.
 """
 
 
-default_args = {
+DEFAULT_ARGS = {
     'start_date': datetime(2020, 1, 1),
     'email': ['luisfalmeidanogueira@gmail.com']
 }
 
 # Yesterday's date.
-today = date.today()
-yesterday = today - timedelta(days=1)
+TODAY = date.today()
+YESTERDAY = TODAY - timedelta(days=1)
 
 # Initializing arguments to the task function.
-op_kwargs = {'year': yesterday.year, 'month': yesterday.month,
-            'day': yesterday.day, 'coin': 'BTC'}
+op_kwargs = {
+    'year': YESTERDAY.year, 
+    'month': YESTERDAY.month,
+    'day': YESTERDAY.day,
+    'coin': 'BTC'
+}
 
-# Instatiating class to use getAndInputDaySummary method
+# Instatiating class to use get_and_input_day_summary method
 btc = DaySummaryDag()
 
-with DAG('bitcoin', schedule_interval='@daily', default_args=default_args,
-         catchup=False, doc_md=doc_md) as dag:
+with DAG(
+    dag_id='bitcoin',
+    schedule_interval='@daily',
+    default_args=DEFAULT_ARGS,
+    catchup=False,
+    doc_md=DOC_MD
+) as dag:
 
     get_api = PythonOperator(
         task_id='get_api',
-        python_callable=btc.getAndInputDaySummary,
+        python_callable=btc.get_and_input_day_summary,
         op_kwargs=op_kwargs
     )
 
